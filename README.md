@@ -14,7 +14,11 @@ Open the dev server URL (typically `http://localhost:5173/`).
 
 ## What data you already have (local)
 
-Your existing PJM pulls are under:
+Download the PJM+features dataset (packaged as the `GridIntelligence-1/Data` directory) from Duke Box:
+
+- [Duke Box data bundle](https://duke.box.com/s/xtdrmjv1463wf0o60i1rmts0g0urxp01)
+
+After downloading, extract it so the `Data` folder matches the path below (this is the path hard-coded in `scripts/build_analysis_exports.py`):
 
 - `C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data`
 
@@ -31,6 +35,8 @@ small case-study file:
 ```bash
 python scripts/export_pjm_metadata.py
 ```
+
+This writes `public/data/regions.json` and `public/data/nodes.json` (and a small case-study seed) via the normal export/sync flow.
 
 ## Pull NOAA ISD weather (what’s still missing)
 
