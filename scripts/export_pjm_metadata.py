@@ -9,7 +9,7 @@ DATA_ROOT = Path(r"C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data")
 
 FEATURE_DATA = DATA_ROOT / "feature_data"
 
-OUT_DIR = ROOT / "public" / "data"
+OUT_DIR = ROOT / "data" / "exports"
 CASE_STUDIES_DIR = OUT_DIR / "case_studies"
 
 

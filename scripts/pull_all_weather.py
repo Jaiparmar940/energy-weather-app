@@ -10,7 +10,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_DATA = ROOT / "public" / "data"
+PUBLIC_DATA = ROOT / "data" / "exports"
 
 GRID_DATA = Path(r"C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data")
 

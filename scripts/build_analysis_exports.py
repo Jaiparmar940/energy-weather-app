@@ -8,7 +8,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = Path(r"C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data")
 
-PUBLIC_DATA = ROOT / "public" / "data"
+PUBLIC_DATA = ROOT / "data" / "exports"
 
 
 def _read_json(path: Path):
@@ -132,6 +132,17 @@ def main():
     ap.add_argument("--base-c", type=float, default=18.0)
     ap.add_argument("--prefer-dc-heavy", action="store_true", help="Prioritize nodes where isDataCenterHeavy=true")
     ap.add_argument("--dc-only", action="store_true", help="Only compute correlations for DC-heavy nodes")
+    ap.add_argument(
+        "--balanced-dc",
+        action="store_true",
+        help="When limiting nodes, include a mix of DC-heavy and non-DC-heavy nodes.",
+    )
+    ap.add_argument(
+        "--dc-ratio",
+        type=float,
+        default=0.5,
+        help="If --balanced-dc is set, target fraction of DC-heavy nodes (0-1).",
+    )
     args = ap.parse_args()
 
     nodes_path = PUBLIC_DATA / "nodes.json"
@@ -148,11 +159,37 @@ def main():
     nodes["id"] = nodes["id"].astype(str)
     if args.dc_only:
         nodes = nodes[nodes.get("isDataCenterHeavy") == True].copy()
-    if args.prefer_dc_heavy:
-        nodes = nodes.sort_values(
-            by=["isDataCenterHeavy", "regionId", "id"], ascending=[False, True, True]
-        ).copy()
-    nodes = nodes.head(args.limit_nodes).copy()
+
+    if args.balanced_dc and args.limit_nodes and args.limit_nodes > 0:
+        dc_nodes = nodes[nodes.get("isDataCenterHeavy") == True].copy()
+        non_dc_nodes = nodes[nodes.get("isDataCenterHeavy") != True].copy()
+        dc_nodes = dc_nodes.sort_values(by=["regionId", "id"]).copy()
+        non_dc_nodes = non_dc_nodes.sort_values(by=["regionId", "id"]).copy()
+
+        ratio = max(0.0, min(1.0, float(args.dc_ratio)))
+        dc_target = int(round(args.limit_nodes * ratio))
+        non_dc_target = args.limit_nodes - dc_target
+
+        chosen_dc = dc_nodes.head(dc_target)
+        chosen_non_dc = non_dc_nodes.head(non_dc_target)
+        chosen = pd.concat([chosen_dc, chosen_non_dc], ignore_index=True)
+
+        if len(chosen) < args.limit_nodes:
+            remaining = args.limit_nodes - len(chosen)
+            if len(dc_nodes) > len(chosen_dc):
+                fill = dc_nodes.iloc[len(chosen_dc) : len(chosen_dc) + remaining]
+            else:
+                fill = non_dc_nodes.iloc[len(chosen_non_dc) : len(chosen_non_dc) + remaining]
+            chosen = pd.concat([chosen, fill], ignore_index=True)
+
+        nodes = chosen.head(args.limit_nodes).copy()
+    else:
+        if args.prefer_dc_heavy:
+            nodes = nodes.sort_values(
+                by=["isDataCenterHeavy", "regionId", "id"],
+                ascending=[False, True, True],
+            ).copy()
+        nodes = nodes.head(args.limit_nodes).copy()
     station_map = pd.read_json(station_map_path)
     station_map["nodeId"] = station_map["nodeId"].astype(str)
     station_map = station_map.set_index("nodeId")

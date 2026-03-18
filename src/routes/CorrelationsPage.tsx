@@ -397,6 +397,7 @@ export default function CorrelationsPage() {
   const [dcFilter, setDcFilter] = useState<'all' | 'dc' | 'nonDc'>('all');
   const [fromYear, setFromYear] = useState<number | undefined>(undefined);
   const [toYear, setToYear] = useState<number | undefined>(undefined);
+  const [showAllRegions, setShowAllRegions] = useState(false);
 
   const filtered = useMemo(() => {
     const base = correlations ?? [];
@@ -442,7 +443,46 @@ export default function CorrelationsPage() {
       </p>
       <section>
         <h3>Regions loaded</h3>
-        <p>{regions ? regions.map((r) => r.name).join(', ') : 'Loading…'}</p>
+        {regions ? (
+          <>
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: 8,
+                marginTop: 8,
+                marginBottom: 8,
+              }}
+            >
+              {(
+                showAllRegions ? regions : regions.slice(0, 10)
+              ).map((r) => (
+                <span
+                  key={r.id}
+                  style={{
+                    border: '1px solid var(--border)',
+                    borderRadius: 9999,
+                    padding: '4px 10px',
+                    fontSize: '0.9rem',
+                  }}
+                >
+                  {r.name} <span style={{ fontFamily: 'var(--mono)', opacity: 0.75 }}>({r.id})</span>
+                </span>
+              ))}
+            </div>
+            {regions.length > 10 ? (
+              <button
+                type="button"
+                onClick={() => setShowAllRegions((v) => !v)}
+                style={{ padding: '6px 10px' }}
+              >
+                {showAllRegions ? 'Show fewer' : `Show ${regions.length - 10} more`}
+              </button>
+            ) : null}
+          </>
+        ) : (
+          <p>Loading…</p>
+        )}
       </section>
       <section>
         <h3>Filters</h3>

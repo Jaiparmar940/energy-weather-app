@@ -66,10 +66,15 @@ export default function CorrelationTrendChart({ records }: Props) {
           width={48}
         />
         <Tooltip
+          wrapperStyle={{ zIndex: 20 }}
           formatter={(value, name) => [Number(value).toFixed(3), String(name).replace('|', ' • ')]}
           labelFormatter={(label) => `Year: ${label}`}
         />
-        <Legend />
+        <Legend
+          verticalAlign="bottom"
+          align="center"
+          wrapperStyle={{ zIndex: 1, pointerEvents: 'none' }}
+        />
         {seriesKeys.map((k, i) => (
           <Line
             key={k}

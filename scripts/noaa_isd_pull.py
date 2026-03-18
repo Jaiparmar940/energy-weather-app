@@ -7,7 +7,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_DATA = ROOT / "public" / "data"
+PUBLIC_DATA = ROOT / "data" / "exports"
 
 ISD_HISTORY_URL = "https://www.ncei.noaa.gov/pub/data/noaa/isd-history.csv"
 GLOBAL_HOURLY_BASE = "https://www.ncei.noaa.gov/data/global-hourly/access"

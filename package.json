@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "sync:data": "node scripts/sync_exports_to_public.js",
+    "predev": "npm run sync:data",
     "dev": "vite",
+    "prebuild": "npm run sync:data",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
