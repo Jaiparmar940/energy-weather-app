@@ -15,6 +15,45 @@ Open the dev server URL (typically `http://localhost:5173/`).
 
 You can now use the app with our precomputed correlations. If you want to go through the full pipeline of recomputing correlations from weather data and prce/energy usage information, review the following sections.
 
+## App Screenshots
+
+Add your screenshots into `docs/screenshots/` and name them:
+
+- `screenshot1.png`
+- `screenshot2.png`
+- `screenshot3.png`
+- `screenshot4.png`
+
+Then the README will show them here:
+
+<details>
+<summary>Slide 1</summary>
+
+![Slide 1](docs/screenshots/screenshot1.png)
+
+</details>
+
+<details>
+<summary>Slide 2</summary>
+
+![Slide 2](docs/screenshots/screenshot2.png)
+
+</details>
+
+<details>
+<summary>Slide 3</summary>
+
+![Slide 3](docs/screenshots/screenshot3.png)
+
+</details>
+
+<details>
+<summary>Slide 4</summary>
+
+![Slide 4](docs/screenshots/screenshot4.png)
+
+</details>
+
 ## Precomputed data (default workflow)
 
 This repository is configured to use precomputed JSON exports so the app can run without bundling large raw PJM datasets. The remaining sections are optional.
