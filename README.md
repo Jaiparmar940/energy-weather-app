@@ -3,7 +3,7 @@
 React web app to explore how the relationship between **weather patterns** and **grid demand/pricing**
 may be shifting in **data-center-heavy** regions.
 
-## Run the web app
+## Run the web app (easiest solution)
 
 ```bash
 npm install
@@ -11,6 +11,8 @@ npm run dev
 ```
 
 Open the dev server URL (typically `http://localhost:5173/`).
+
+You can now use the app with our precomputed correlations. If you want to go through the fulol pipeline of recomputing correlations from weather data and prce/energy usage informations, review the following sections.
 
 ## Precomputed data (default workflow)
 
