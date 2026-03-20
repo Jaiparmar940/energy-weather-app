@@ -1,11 +1,31 @@
 import json
+import os
 from pathlib import Path
 
 import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_ROOT = Path(r"C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data")
+def resolve_data_root() -> Path:
+    """
+    Where the raw PJM dataset lives.
+
+    Default:
+      <repo>/data/pjm data
+
+    Override:
+      PJM_DATA_ROOT=/path/to/pjm_data
+    """
+
+    env = os.environ.get("PJM_DATA_ROOT")
+    if env:
+        return Path(env).expanduser().resolve()
+
+    # Repo-relative default so we don't hardcode machine-specific paths.
+    return ROOT / "data" / "pjm data"
+
+
+DATA_ROOT = resolve_data_root()
 
 FEATURE_DATA = DATA_ROOT / "feature_data"
 

@@ -1,0 +1,686 @@
+[
+  {
+    "id": "67165681",
+    "name": "ORCHARD",
+    "regionId": "AECO",
+    "subregion": "EHV",
+    "lat": 29.6041269,
+    "lon": -95.9696778,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509175",
+    "name": "AMOS",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 48.5718519,
+    "lon": -78.1160856,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509177",
+    "name": "AXTON",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 36.659582,
+    "lon": -79.711978,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509183",
+    "name": "CLOVERDALE",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 38.8064632,
+    "lon": -123.0178759,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509185",
+    "name": "COOK",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 41.8197385,
+    "lon": -87.756525,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509191",
+    "name": "GAVIN",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 35.1909233,
+    "lon": -90.2198175,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509193",
+    "name": "HANGING ROCK",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 38.56008,
+    "lon": -82.7209975,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509195",
+    "name": "JACKSONS FERRY",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 38.3385153,
+    "lon": -75.6974925,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509197",
+    "name": "JEFFERSON",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 29.834772,
+    "lon": -94.1704496,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509199",
+    "name": "JOSHUA FALLS",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 37.4251432,
+    "lon": -79.0444665,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509205",
+    "name": "MARYSVILLE",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 48.0517429,
+    "lon": -122.1768209,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509207",
+    "name": "MOUNTAINEER",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 40.5211086,
+    "lon": -112.2839287,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509209",
+    "name": "NORTH PROCTORVILLE",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 34.4766061,
+    "lon": -79.0363154,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509213",
+    "name": "ROCKPORT",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 28.0205733,
+    "lon": -97.0544341,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509215",
+    "name": "SOUTH CANTON",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 34.2167625,
+    "lon": -84.5046516,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "34509219",
+    "name": "WYOMING",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 43.1700264,
+    "lon": -107.568534,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "35084669",
+    "name": "FLATLICK",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 38.8664654,
+    "lon": -77.4661677,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "1356178203",
+    "name": "SORENSON",
+    "regionId": "AEP",
+    "subregion": "EHV",
+    "lat": 37.6454243,
+    "lon": -122.0664291,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "5022431",
+    "name": "BEDINGTON",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 39.5223201,
+    "lon": -77.9055525,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "5022434",
+    "name": "CABOT",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 34.974532,
+    "lon": -92.0165336,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "5022437",
+    "name": "HARRISON",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 32.5233959,
+    "lon": -94.3982158,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "5022440",
+    "name": "MEADOWBROOK",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 33.3924962,
+    "lon": -86.7057403,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "5022441",
+    "name": "PLEASANTS",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 39.370369,
+    "lon": -81.1545062,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "5022442",
+    "name": "PRUNTYTOWN",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 39.3339799,
+    "lon": -80.076746,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "11517088",
+    "name": "SOUTHBEND",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 35.5819111,
+    "lon": -78.758464,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "77260083",
+    "name": "NORTH LONGVIEW",
+    "regionId": "APS",
+    "subregion": "EHV",
+    "lat": 35.0266528,
+    "lon": -80.7951237,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "1076374013",
+    "name": "CRANBERRY",
+    "regionId": "ATSI",
+    "subregion": "EHV",
+    "lat": 40.7099343,
+    "lon": -80.1060506,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "33108559",
+    "name": "112 WILTON",
+    "regionId": "COMED",
+    "subregion": "EHV",
+    "lat": 43.109378,
+    "lon": -73.7417668,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "33108561",
+    "name": "167 PLANO",
+    "regionId": "COMED",
+    "subregion": "EHV",
+    "lat": 31.0203303,
+    "lon": -94.8486717,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "33108563",
+    "name": "23 COLLINS",
+    "regionId": "COMED",
+    "subregion": "EHV",
+    "lat": 36.5834648,
+    "lon": -80.3446074,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "35010339",
+    "name": "CARSON",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 33.8322043,
+    "lon": -118.2517547,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010341",
+    "name": "CHICKAHOMINY",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 37.6082008,
+    "lon": -77.4130375,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010343",
+    "name": "CLOVER",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 35.1112478,
+    "lon": -81.2264646,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010345",
+    "name": "ELMONT",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 40.7053335,
+    "lon": -73.7078294,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010349",
+    "name": "NORTH ANNA",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 37.890973,
+    "lon": -77.5174836,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010351",
+    "name": "FENTRESS",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 29.7559083,
+    "lon": -97.7768042,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010355",
+    "name": "SURRY",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 36.4135582,
+    "lon": -80.7013751,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010357",
+    "name": "YADKIN",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 36.1497114,
+    "lon": -80.67623,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010359",
+    "name": "CHANCELLOR",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 43.372118,
+    "lon": -96.987179,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010361",
+    "name": "CLIFTON",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 40.8584328,
+    "lon": -74.1637553,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010363",
+    "name": "LADYSMITH",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 48.9936579,
+    "lon": -123.8157964,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010365",
+    "name": "LOUDOUN",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 39.0984586,
+    "lon": -77.6705008,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010367",
+    "name": "MORRISVILLE",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 35.824341,
+    "lon": -78.8300321,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010371",
+    "name": "PLEASANT VIEW",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 36.3942164,
+    "lon": -87.0366685,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010373",
+    "name": "POSSUM POINT",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 34.4875185,
+    "lon": -110.7599042,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010375",
+    "name": "BATH COUNTY",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 38.1245248,
+    "lon": -83.7249243,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010377",
+    "name": "CUNNINGHAM",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 37.6439067,
+    "lon": -98.4311883,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010379",
+    "name": "DOOMS",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 38.1061005,
+    "lon": -78.8463592,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010381",
+    "name": "FLUVANNA",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 37.8488527,
+    "lon": -78.2789994,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010383",
+    "name": "LEXINGTON",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 38.0464066,
+    "lon": -84.4970393,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010385",
+    "name": "MT STORM",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 39.2773263,
+    "lon": -79.2408725,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "35010387",
+    "name": "VALLEY",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 41.5595723,
+    "lon": -98.9805484,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "62871513",
+    "name": "BRISTERS",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 31.3865624,
+    "lon": -90.2325906,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "62871515",
+    "name": "GREENLAND GAP",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 39.1553172,
+    "lon": -79.0729244,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "1107333036",
+    "name": "FRONT ROYAL",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 38.9179069,
+    "lon": -78.1918077,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "1356178171",
+    "name": "BRAMBLET",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 37.8339405,
+    "lon": -86.6031566,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "1356178181",
+    "name": "MOSBY",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 39.315559,
+    "lon": -94.2938356,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "1356178183",
+    "name": "RAWLINGS",
+    "regionId": "DOM",
+    "subregion": "EHV",
+    "lat": 39.540319,
+    "lon": -78.8868609,
+    "isDataCenterHeavy": true
+  },
+  {
+    "id": "52458",
+    "name": "KEENEY",
+    "regionId": "DPL",
+    "subregion": "EHV",
+    "lat": 39.6190007,
+    "lon": -75.7032652,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "21616495",
+    "name": "ROCKSPRINGS",
+    "regionId": "DPL",
+    "subregion": "EHV",
+    "lat": 30.0166866,
+    "lon": -100.208556,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52465",
+    "name": "SMITHBURG",
+    "regionId": "JCPL",
+    "subregion": "EHV",
+    "lat": 40.2090006,
+    "lon": -74.352926,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52456",
+    "name": "HUNTERSTOWN",
+    "regionId": "METED",
+    "subregion": "EHV",
+    "lat": 39.8823181,
+    "lon": -77.1602604,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52452",
+    "name": "ELROY",
+    "regionId": "PECO",
+    "subregion": "EHV",
+    "lat": 43.7383106,
+    "lon": -90.2700283,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52471",
+    "name": "WHITPAIN",
+    "regionId": "PECO",
+    "subregion": "EHV",
+    "lat": 40.1576941,
+    "lon": -75.2760091,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52450",
+    "name": "CONEMAUGH",
+    "regionId": "PENELEC",
+    "subregion": "EHV",
+    "lat": 40.3919679,
+    "lon": -79.0650147,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52459",
+    "name": "KEYSTONE",
+    "regionId": "PENELEC",
+    "subregion": "EHV",
+    "lat": 41.9988889,
+    "lon": -92.1979353,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "1666738891",
+    "name": "VINCO",
+    "regionId": "PENELEC",
+    "subregion": "EHV",
+    "lat": 40.4123645,
+    "lon": -78.8450651,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52443",
+    "name": "ALBURTIS",
+    "regionId": "PPL",
+    "subregion": "EHV",
+    "lat": 40.5114787,
+    "lon": -75.6036993,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52455",
+    "name": "HOSENSACK",
+    "regionId": "PPL",
+    "subregion": "EHV",
+    "lat": 40.4537098,
+    "lon": -75.4968489,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52457",
+    "name": "JUNIATA",
+    "regionId": "PPL",
+    "subregion": "EHV",
+    "lat": 40.5368022,
+    "lon": -77.4300565,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52466",
+    "name": "SUNBURY",
+    "regionId": "PPL",
+    "subregion": "EHV",
+    "lat": 40.8619754,
+    "lon": -76.7936252,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52467",
+    "name": "SUSQUEHANNA",
+    "regionId": "PPL",
+    "subregion": "EHV",
+    "lat": 41.9439867,
+    "lon": -75.6041902,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52444",
+    "name": "BRANCHBURG",
+    "regionId": "PSEG",
+    "subregion": "EHV",
+    "lat": 40.5688245,
+    "lon": -74.7002739,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52451",
+    "name": "DEANS",
+    "regionId": "PSEG",
+    "subregion": "EHV",
+    "lat": 40.404273,
+    "lon": -74.5159872,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "52464",
+    "name": "SALEM",
+    "regionId": "PSEG",
+    "subregion": "EHV",
+    "lat": 39.4701067,
+    "lon": -75.5380789,
+    "isDataCenterHeavy": false
+  },
+  {
+    "id": "1356178185",
+    "name": "ROSELAND",
+    "regionId": "PSEG",
+    "subregion": "EHV",
+    "lat": 37.2811683,
+    "lon": -94.8505165,
+    "isDataCenterHeavy": false
+  }
+]

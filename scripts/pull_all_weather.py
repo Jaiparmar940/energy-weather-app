@@ -1,6 +1,7 @@
 import json
 import math
 import re
+import os
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -12,7 +13,26 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DATA = ROOT / "data" / "exports"
 
-GRID_DATA = Path(r"C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data")
+def resolve_data_root() -> Path:
+    """
+    Where the raw PJM dataset lives.
+
+    Default:
+      <repo>/data/pjm data
+
+    Override:
+      PJM_DATA_ROOT=/path/to/pjm_data
+    """
+
+    env = os.environ.get("PJM_DATA_ROOT")
+    if env:
+        return Path(env).expanduser().resolve()
+
+    # Repo-relative default so we don't hardcode machine-specific paths.
+    return ROOT / "data" / "pjm data"
+
+
+GRID_DATA = resolve_data_root()
 
 ISD_HISTORY_URL = "https://www.ncei.noaa.gov/pub/data/noaa/isd-history.csv"
 GLOBAL_HOURLY_BASE = "https://www.ncei.noaa.gov/data/global-hourly/access"
@@ -191,7 +211,7 @@ def main():
 
     years = detect_energy_years()
     if not years:
-        raise RuntimeError("Could not detect any energy years in GridIntelligence-1/Data.")
+        raise RuntimeError("Could not detect any energy years in data/pjm data.")
     print(f"Energy years detected: {years}")
 
     nodes = load_nodes()

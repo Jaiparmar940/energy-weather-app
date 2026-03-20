@@ -12,15 +12,54 @@ npm run dev
 
 Open the dev server URL (typically `http://localhost:5173/`).
 
-## What data you already have (local)
+## Precomputed data (default workflow)
 
-Download the PJM+features dataset (packaged as the `GridIntelligence-1/Data` directory) from Duke Box:
+This repository is configured to use precomputed JSON exports so the app can run without bundling large raw PJM datasets.
+
+The frontend reads from `public/data/` (synced from `data/exports/`), including:
+
+- `regions.json`
+- `nodes.json`
+- `correlations_by_region_period.json`
+- `model_performance.json`
+- `case_studies/*.json`
+
+To refresh frontend data from existing exports:
+
+```bash
+npm run sync:data
+```
+
+### Getting all required app data (no recompute)
+
+If you just want the app to work with precomputed results:
+
+1. Download the `data` folder snapshot from Box: [Duke Box data bundle](https://duke.box.com/s/xtdrmjv1463wf0o60i1rmts0g0urxp01)
+2. Replace your local repo `data/` directory with the downloaded `data/` directory.
+3. Run:
+
+```bash
+npm run sync:data
+npm run dev
+```
+
+## Recomputing correlations (optional, full data workflow)
+
+Recomputing correlations requires raw PJM data + weather pulls. We do **not** require this for normal app usage, and we keep precomputed exports to avoid excessive data uploads/check-ins.
+
+If you want to recompute, first download the PJM+features dataset from Duke Box:
 
 - [Duke Box data bundle](https://duke.box.com/s/xtdrmjv1463wf0o60i1rmts0g0urxp01)
 
-After downloading, extract it so the `Data` folder matches the path below (this is the path hard-coded in `scripts/build_analysis_exports.py`):
+After downloading, extract it to the repo-relative default location:
 
-- `C:\Users\Jaipa\OneDrive\Desktop\GridIntelligence-1\Data`
+- `./data/pjm data`
+
+If you keep the dataset elsewhere, set an environment variable before running scripts:
+
+```powershell
+$env:PJM_DATA_ROOT="C:\path\to\pjm data"
+```
 
 We detected:
 - `pjm_da_full_system_parquet/` (hourly Day-Ahead LMP by pnode)
@@ -41,7 +80,9 @@ This writes `public/data/regions.json` and `public/data/nodes.json` (and a small
 ## Pull NOAA ISD weather (what’s still missing)
 
 Weather features are not yet present in your PJM snapshot. This script:
-- downloads `isd-history.csv` (station catalog)\n+- finds the nearest station per node\n+- downloads NOAA **global-hourly** CSVs for chosen years\n+
+- downloads `isd-history.csv` (station catalog)
+- finds the nearest station per node
+- downloads NOAA **global-hourly** CSVs for chosen years
 ```bash
 python scripts/noaa_isd_pull.py --years 2021 2022 2023 2024 2025 --limit-nodes 30 --max-km 50
 ```
@@ -49,6 +90,12 @@ python scripts/noaa_isd_pull.py --years 2021 2022 2023 2024 2025 --limit-nodes 3
 Outputs:
 - mapping: `data/node_to_isd_station.json`
 - weather CSVs: `data/noaa_isd_global_hourly/`
+
+After generating exports, sync them into the frontend:
+
+```bash
+npm run sync:data
+```
 
 ## Next step (analysis exports)
 
