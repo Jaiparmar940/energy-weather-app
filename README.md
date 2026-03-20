@@ -7,6 +7,7 @@ may be shifting in **data-center-heavy** regions.
 
 ```bash
 npm install
+npm run sync:data
 npm run dev
 ```
 
