@@ -17,15 +17,6 @@ You can now use the app with our precomputed correlations. If you want to go thr
 
 ## App Screenshots
 
-Add your screenshots into `docs/screenshots/` and name them:
-
-- `screenshot1.png`
-- `screenshot2.png`
-- `screenshot3.png`
-- `screenshot4.png`
-
-Then the README will show them here:
-
 <details>
 <summary>Slide 1</summary>
 
