@@ -32,7 +32,7 @@ To refresh frontend data from existing exports:
 npm run sync:data
 ```
 
-### Getting all required app data (no recompute)
+### Getting all optional app data (no recompute)
 
 If you just want the app to work with precomputed results:
 
