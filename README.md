@@ -37,7 +37,7 @@ npm run sync:data
 
 If you just want the app to work with precomputed results:
 
-1. Download the `data` folder snapshot from Box: [Duke Box data bundle](https://duke.box.com/s/xtdrmjv1463wf0o60i1rmts0g0urxp01)
+1. Download the `data` folder snapshot from Box: [Duke Box data bundle](https://duke.box.com/s/i75cw52pljlceupqarzp2vasaa31sgf7)
 2. Replace your local repo `data/` directory with the downloaded `data/` directory.
 3. Run:
 
@@ -52,7 +52,7 @@ Recomputing correlations requires raw PJM data + weather pulls. We do **not** re
 
 If you want to recompute, first download the PJM+features dataset from Duke Box:
 
-- [Duke Box data bundle](https://duke.box.com/s/xtdrmjv1463wf0o60i1rmts0g0urxp01)
+- [Duke Box data bundle](https://duke.box.com/s/i75cw52pljlceupqarzp2vasaa31sgf7)
 
 After downloading, extract it to the repo-relative default location:
 
