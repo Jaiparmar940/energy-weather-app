@@ -12,11 +12,11 @@ npm run dev
 
 Open the dev server URL (typically `http://localhost:5173/`).
 
-You can now use the app with our precomputed correlations. If you want to go through the fulol pipeline of recomputing correlations from weather data and prce/energy usage informations, review the following sections.
+You can now use the app with our precomputed correlations. If you want to go through the full pipeline of recomputing correlations from weather data and prce/energy usage information, review the following sections.
 
 ## Precomputed data (default workflow)
 
-This repository is configured to use precomputed JSON exports so the app can run without bundling large raw PJM datasets.
+This repository is configured to use precomputed JSON exports so the app can run without bundling large raw PJM datasets. The remaining sections are optional.
 
 The frontend reads from `public/data/` (synced from `data/exports/`), including:
 
@@ -32,7 +32,7 @@ To refresh frontend data from existing exports:
 npm run sync:data
 ```
 
-### Getting all optional app data (no recompute)
+### OPTIONAL: Getting all optional app data (no recompute)
 
 If you just want the app to work with precomputed results:
 
