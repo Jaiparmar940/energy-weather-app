@@ -77,7 +77,7 @@ python scripts/export_pjm_metadata.py
 
 This writes `public/data/regions.json` and `public/data/nodes.json` (and a small case-study seed) via the normal export/sync flow.
 
-## Pull NOAA ISD weather (what’s still missing)
+## Pull NOAA ISD weather
 
 Weather features are not yet present in your PJM snapshot. This script:
 - downloads `isd-history.csv` (station catalog)
