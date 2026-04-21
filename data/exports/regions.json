@@ -27,7 +27,7 @@
     "id": "ATSI",
     "name": "PJM Zone ATSI",
     "iso": "PJM",
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "avgLikelihood": 0.2834,
     "avgConfidence": 0.4373
   },
@@ -75,7 +75,7 @@
     "id": "DOM",
     "name": "PJM Zone DOM",
     "iso": "PJM",
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "avgLikelihood": 0.305,
     "avgConfidence": 0.4449
   },

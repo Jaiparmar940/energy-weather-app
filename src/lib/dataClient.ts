@@ -4,6 +4,7 @@ import type {
   CorrelationRecord,
   ModelMetric,
   CaseStudySeries,
+  HypothesisTestsExport,
   Period,
 } from '../types';
 
@@ -100,5 +101,9 @@ export function getCaseStudySeries(nodeId: string): Promise<CaseStudySeries[]> {
     }
     throw err;
   });
+}
+
+export function getHypothesisTests(): Promise<HypothesisTestsExport> {
+  return fetchJson<HypothesisTestsExport>(`${DATA_BASE}/hypothesis_tests.json`);
 }
 

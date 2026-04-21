@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "alpha": 0.05,
+    "minGroupNForInference": 5,
+    "minTotalNForInference": 15,
+    "minGroupNForPermutation": 8,
+    "minGroupNForBootstrap": 5,
+    "permutationCount": 3000,
+    "bootstrapIterations": 5000,
+    "randomSeed": 42
+  },
+  "results": [
+    {
+      "metricKey": "rq1_mean_abs_weather_correlation",
+      "metricLabel": "Mean |weather correlation| per node",
+      "question": "RQ1",
+      "dcMean": 0.13524453934766364,
+      "nonDcMean": 0.13485471057073262,
+      "absoluteDifference": 0.00038982877693102824,
+      "signedDifference": 0.00038982877693102824,
+      "relativeDifferencePct": 0.28907316272542016,
+      "dcMedian": 0.13174630023716977,
+      "nonDcMedian": 0.13008043346542472,
+      "dcStd": 0.020904058992180643,
+      "nonDcStd": 0.015379593844912224,
+      "dcIqr": 0.026540472651231606,
+      "nonDcIqr": 0.025801230422951266,
+      "nDc": 19,
+      "nNonDc": 32,
+      "diffCiLower": -0.009903793278043716,
+      "diffCiUpper": 0.011270309086484988,
+      "bootstrapIterations": 5000,
+      "standardizedEffectSize": 0.02213486880471437,
+      "effectSizeLabel": "Cohen_d",
+      "pValue": 0.9446851049650117,
+      "testType": "two-sided permutation",
+      "permutationCount": 3000,
+      "inferenceEligible": true,
+      "testEligible": true,
+      "significantAt05": false,
+      "resultLabel": "No statistically significant difference",
+      "warnings": [
+        "RQ1 uses node-level mean absolute weather correlation as a descriptive comparison.",
+        "Correlation magnitude does not establish causality or temporal mechanism by itself."
+      ]
+    },
+    {
+      "metricKey": "rq2_weather_only_rmse",
+      "metricLabel": "Weather-only error metric",
+      "question": "RQ2",
+      "dcMean": 0.46476847726606796,
+      "nonDcMean": 0.45741275180957985,
+      "absoluteDifference": 0.007355725456488105,
+      "signedDifference": 0.007355725456488105,
+      "relativeDifferencePct": 1.6081155209136542,
+      "dcMedian": 0.36006849309862055,
+      "nonDcMedian": 0.5810361060531615,
+      "dcStd": 0.31851065286804603,
+      "nonDcStd": 0.32951907543481046,
+      "dcIqr": 0.6190410948975218,
+      "nonDcIqr": 0.656698762416504,
+      "nDc": 324,
+      "nNonDc": 270,
+      "diffCiLower": -0.04521126077829999,
+      "diffCiUpper": 0.057956287085217724,
+      "bootstrapIterations": 5000,
+      "standardizedEffectSize": 0.022733783981697567,
+      "effectSizeLabel": "Cohen_d",
+      "pValue": 0.7914028657114295,
+      "testType": "two-sided permutation",
+      "permutationCount": 3000,
+      "inferenceEligible": true,
+      "testEligible": true,
+      "significantAt05": false,
+      "resultLabel": "No statistically significant difference",
+      "warnings": [
+        "RQ2 compares out-of-sample weather-only RMSE across node-level model-performance observations.",
+        "RQ2 uses normalized RMSE (nRMSE) for cross-node scale comparability."
+      ]
+    }
+  ]
+}

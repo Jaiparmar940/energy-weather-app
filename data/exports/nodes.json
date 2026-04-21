@@ -999,10 +999,10 @@
     "city": null,
     "lat": 40.7099343,
     "lon": -80.1060506,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2834,
     "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "western_pa_wv_rural",
     "reasonCodes": [
       "zone = ATSI matched western_pa_wv_rural, but no strong county/city match",
@@ -1152,10 +1152,10 @@
     "city": null,
     "lat": 33.8322043,
     "lon": -118.2517547,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3167,
     "confidenceScore": 0.449,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1190,10 +1190,10 @@
     "city": null,
     "lat": 37.6082008,
     "lon": -77.4130375,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2881,
     "confidenceScore": 0.439,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1266,10 +1266,10 @@
     "city": null,
     "lat": 40.7053335,
     "lon": -73.7078294,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3,
     "confidenceScore": 0.4431,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1304,10 +1304,10 @@
     "city": null,
     "lat": 37.890973,
     "lon": -77.5174836,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2853,
     "confidenceScore": 0.438,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1342,10 +1342,10 @@
     "city": null,
     "lat": 29.7559083,
     "lon": -97.7768042,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2929,
     "confidenceScore": 0.4406,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1380,10 +1380,10 @@
     "city": null,
     "lat": 36.4135582,
     "lon": -80.7013751,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3,
     "confidenceScore": 0.4431,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1456,10 +1456,10 @@
     "city": null,
     "lat": 43.372118,
     "lon": -96.987179,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3132,
     "confidenceScore": 0.4477,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1494,10 +1494,10 @@
     "city": null,
     "lat": 40.8584328,
     "lon": -74.1637553,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2962,
     "confidenceScore": 0.4418,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1532,10 +1532,10 @@
     "city": null,
     "lat": 48.9936579,
     "lon": -123.8157964,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2875,
     "confidenceScore": 0.4387,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1573,7 +1573,7 @@
     "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.5016,
     "confidenceScore": 0.5137,
-    "classificationLabel": "medium_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match",
@@ -1647,10 +1647,10 @@
     "city": null,
     "lat": 36.3942164,
     "lon": -87.0366685,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2864,
     "confidenceScore": 0.4384,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1685,10 +1685,10 @@
     "city": null,
     "lat": 34.4875185,
     "lon": -110.7599042,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2962,
     "confidenceScore": 0.4418,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1723,10 +1723,10 @@
     "city": null,
     "lat": 38.1245248,
     "lon": -83.7249243,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.314,
     "confidenceScore": 0.448,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1761,10 +1761,10 @@
     "city": null,
     "lat": 37.6439067,
     "lon": -98.4311883,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2833,
     "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1799,10 +1799,10 @@
     "city": null,
     "lat": 38.1061005,
     "lon": -78.8463592,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2833,
     "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1837,10 +1837,10 @@
     "city": null,
     "lat": 37.8488527,
     "lon": -78.2789994,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2875,
     "confidenceScore": 0.4387,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1875,10 +1875,10 @@
     "city": null,
     "lat": 38.0464066,
     "lon": -84.4970393,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3033,
     "confidenceScore": 0.4443,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1913,10 +1913,10 @@
     "city": null,
     "lat": 39.2773263,
     "lon": -79.2408725,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2929,
     "confidenceScore": 0.4406,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1951,10 +1951,10 @@
     "city": null,
     "lat": 41.5595723,
     "lon": -98.9805484,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3033,
     "confidenceScore": 0.4443,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -1989,10 +1989,10 @@
     "city": null,
     "lat": 31.3865624,
     "lon": -90.2325906,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3,
     "confidenceScore": 0.4431,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -2027,10 +2027,10 @@
     "city": null,
     "lat": 39.1553172,
     "lon": -79.0729244,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2816,
     "confidenceScore": 0.4367,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -2065,10 +2065,10 @@
     "city": null,
     "lat": 38.9179069,
     "lon": -78.1918077,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3959,
     "confidenceScore": 0.4767,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match",
@@ -2104,10 +2104,10 @@
     "city": null,
     "lat": 37.8339405,
     "lon": -86.6031566,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2929,
     "confidenceScore": 0.4406,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -2142,10 +2142,10 @@
     "city": null,
     "lat": 39.315559,
     "lon": -94.2938356,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.2833,
     "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -2180,10 +2180,10 @@
     "city": null,
     "lat": 39.540319,
     "lon": -78.8868609,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3125,
     "confidenceScore": 0.4475,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "northern_virginia_dom",
     "reasonCodes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
@@ -2677,10 +2677,10 @@
     "city": null,
     "lat": 40.8619754,
     "lon": -76.7936252,
-    "isDataCenterHeavy": false,
+    "isDataCenterHeavy": true,
     "dataCenterLikelihoodScore": 0.3167,
     "confidenceScore": 0.449,
-    "classificationLabel": "low_likelihood",
+    "classificationLabel": "high_likelihood",
     "matchedRegion": "ppl_susquehanna_berwick",
     "reasonCodes": [
       "zone = PPL matched ppl_susquehanna_berwick, but no strong county/city match",

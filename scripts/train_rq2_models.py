@@ -201,6 +201,7 @@ def evaluate_for_target(
     feature_cols: list[str],
     target_col: str,
     model_type: str,
+    node_id: str,
     region_id: str,
     bucket: str,
     test_start_year: int,
@@ -229,8 +230,11 @@ def evaluate_for_target(
             if len(grp) < 24:
                 continue
             rmse, mae, r2 = metrics_row(grp["y_true"].to_numpy(), grp["y_pred"].to_numpy())
+            target_mean = float(np.mean(grp["y_true"].to_numpy()))
+            nrmse = (rmse / abs(target_mean)) if abs(target_mean) > 1e-9 else None
             rows.append(
                 {
+                    "nodeId": node_id,
                     "regionId": region_id,
                     "period": period,
                     "isDataCenterHeavyBucket": bucket,
@@ -239,7 +243,9 @@ def evaluate_for_target(
                     "target": "lmp" if target_col == "total_lmp_da" else "load",
                     "split": "test",
                     "nSamples": int(len(grp)),
+                    "targetMean": target_mean,
                     "rmse": rmse,
+                    "nrmse": nrmse,
                     "mae": mae,
                     "r2": r2,
                 }
@@ -332,24 +338,24 @@ def main():
             lmp_df = base.dropna(subset=["total_lmp_da"]).copy()
             all_rows.extend(
                 evaluate_for_target(
-                    lmp_df, weather_only, "total_lmp_da", "weatherOnly", region_id, bucket, args.test_start_year
+                    lmp_df, weather_only, "total_lmp_da", "weatherOnly", node_id, region_id, bucket, args.test_start_year
                 )
             )
             all_rows.extend(
                 evaluate_for_target(
-                    lmp_df, weather_plus_dc, "total_lmp_da", "weatherPlusDc", region_id, bucket, args.test_start_year
+                    lmp_df, weather_plus_dc, "total_lmp_da", "weatherPlusDc", node_id, region_id, bucket, args.test_start_year
                 )
             )
         if "forecast_load_mw" in base.columns:
             load_df = base.dropna(subset=["forecast_load_mw"]).copy()
             all_rows.extend(
                 evaluate_for_target(
-                    load_df, weather_only, "forecast_load_mw", "weatherOnly", region_id, bucket, args.test_start_year
+                    load_df, weather_only, "forecast_load_mw", "weatherOnly", node_id, region_id, bucket, args.test_start_year
                 )
             )
             all_rows.extend(
                 evaluate_for_target(
-                    load_df, weather_plus_dc, "forecast_load_mw", "weatherPlusDc", region_id, bucket, args.test_start_year
+                    load_df, weather_plus_dc, "forecast_load_mw", "weatherPlusDc", node_id, region_id, bucket, args.test_start_year
                 )
             )
 

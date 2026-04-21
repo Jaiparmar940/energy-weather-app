@@ -54,6 +54,12 @@ def main():
         default="",
         help="Optional CSV with node attributes: node_id,zone,state,county,city,latitude,longitude",
     )
+    ap.add_argument(
+        "--dc-top-percent",
+        type=float,
+        default=0.35,
+        help="Classify top X fraction of nodes by likelihood score as DC-heavy (0-1).",
+    )
     args = ap.parse_args()
 
     lmp_node_index = _load_json(FEATURE_DATA / "lmp_node_index.json")
@@ -120,8 +126,11 @@ def main():
                 nodes_df = nodes_df.drop(columns=[attr_col])
 
     scored_df = assign_data_center_likelihood(nodes_df, default_pjm_scoring_config())
-    scored_df["isDataCenterHeavy"] = scored_df["classification_label"].isin(
-        ["high_likelihood", "medium_likelihood"]
+    top_pct = max(0.01, min(1.0, float(args.dc_top_percent)))
+    score_cutoff = float(scored_df["data_center_likelihood_score"].quantile(1.0 - top_pct))
+    scored_df["isDataCenterHeavy"] = scored_df["data_center_likelihood_score"] >= score_cutoff
+    scored_df["classification_label"] = scored_df["isDataCenterHeavy"].map(
+        lambda is_dc: "high_likelihood" if bool(is_dc) else "low_likelihood"
     )
 
     # Region-level summary from node-level scores.

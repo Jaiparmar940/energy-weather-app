@@ -206,6 +206,21 @@ It writes metrics to:
 
 Each metric row includes region, period, bucket (`dc`/`nonDc`), model type (`weatherOnly`/`weatherPlusDc`), model name, sample count, RMSE, MAE, and R².
 
+### Build statistically safe hypothesis exports
+
+To generate hypothesis-test summaries used by the dashboard (with validity gates, bootstrap CI, and warnings):
+
+```bash
+python scripts/build_hypothesis_exports.py
+npm run sync:data
+```
+
+This writes:
+- `data/exports/hypothesis_tests.json`
+- `public/data/hypothesis_tests.json` (after sync)
+
+The export separates descriptive vs inferential outputs and automatically marks comparisons as descriptive-only when group sizes are too small.
+
 ### Synthetic demo data (for quick validation)
 
 Run demo scoring with:

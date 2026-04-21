@@ -39,6 +39,7 @@ export interface CorrelationRecord {
 }
 
 export interface ModelMetric {
+  nodeId?: string;
   regionId: string;
   period: Period;
   isDataCenterHeavyBucket?: 'dc' | 'nonDc' | 'all';
@@ -47,9 +48,48 @@ export interface ModelMetric {
   target: 'load' | 'lmp';
   split?: 'train' | 'test' | 'all';
   nSamples?: number;
+  targetMean?: number;
   rmse: number;
+  nrmse?: number | null;
   mae: number;
   r2: number;
+}
+
+export interface HypothesisMetricResult {
+  metricKey: string;
+  metricLabel: string;
+  question: 'RQ1' | 'RQ2' | string;
+  dcMean: number;
+  nonDcMean: number;
+  absoluteDifference: number;
+  signedDifference: number;
+  relativeDifferencePct?: number | null;
+  dcMedian?: number | null;
+  nonDcMedian?: number | null;
+  dcStd?: number | null;
+  nonDcStd?: number | null;
+  dcIqr?: number | null;
+  nonDcIqr?: number | null;
+  nDc: number;
+  nNonDc: number;
+  diffCiLower?: number | null;
+  diffCiUpper?: number | null;
+  bootstrapIterations: number;
+  standardizedEffectSize?: number | null;
+  effectSizeLabel: string;
+  pValue?: number | null;
+  testType: string;
+  permutationCount: number;
+  inferenceEligible: boolean;
+  testEligible: boolean;
+  significantAt05?: boolean | null;
+  resultLabel: string;
+  warnings: string[];
+}
+
+export interface HypothesisTestsExport {
+  metadata: Record<string, unknown>;
+  results: HypothesisMetricResult[];
 }
 
 export interface TimeSeriesPoint {

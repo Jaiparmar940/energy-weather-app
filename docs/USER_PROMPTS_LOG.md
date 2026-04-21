@@ -156,3 +156,31 @@ PJM node categorization revision (new technique):
 - Correlation bucketing now uses score-driven labels (`high`/`medium` -> `dc`, else `nonDc`) instead of static zone assumptions.
 - Models retrained using new categories and exported to `data/exports/model_performance.json`.
 - Correlations UI filter updated to support likelihood label filtering in addition to DC/non-DC.
+
+---
+
+## Subsequent Cursor session (figures, hypothesis export, LaTeX, prompts log)
+
+Prompts recorded from this chat (paraphrased where needed):
+
+1. **RQ1/RQ2 visuals (frontend).** Create alternative visuals for DC vs non-DC comparisons emphasizing distribution, uncertainty, and sample size—not only mean differences. Prefer boxplots or violin plots with overlaid points, jittered dot plots by group, bootstrap CI plots for mean difference, small multiples by node or region if useful, normalized error plots for RQ2 when raw RMSE scale is misleading, sample-size annotations on every figure. For RQ1: distribution of node-level mean absolute weather correlation by group plus difference-in-means with bootstrap CI if possible. For RQ2: distribution of node-level weather-only model performance by group including normalized RMSE plus uncertainty around the group difference. Do not imply significance unless analysis supports it; captions must label descriptive vs inferential; keep visuals clean and app-ready in the React frontend.
+
+2. **Hypothesis table vs pipeline.** Why does the Overview still show “Mean |weather correlation| per node” as descriptive-only with **1 / 17** after running the new pipeline with loose DC definitions—did `hypothesis_tests.json` not update?
+
+3. **`main.tex` Part 4.** Update `main.tex` using generated figures (charts and images; scripts where necessary), real numerical results, and concise text per assignment instructions for Part 4 (Results and Methods): specific reproducible methods, labeled figures/tables, significance relative to research questions. Reference `avg_corr_by_bucket_over_time.png` and `heavy_vs_nonheavy_shift.png`; cover RQ2 ML training, feature use, comparative scripts, and React display.
+
+4. **Paper figures + RQ alignment.** Still only seeing the original figures—add figures with analysis and relevance to both research questions per prior instructions; generate images for the document and analyze them concisely; recall the full list (distributions, bootstrap CI, nRMSE, descriptive vs inferential, etc.).
+
+5. **Inferential PNG layout.** Both inferential mean-difference plots have overlapping text at the bottom—regenerate both (fix axis and descriptor).
+
+6. **Plot-only PNGs.** Remove all descriptor text below the inferential graphs and all overlaid descriptor text above the RQ1 descriptive chart; add an explanatory note in the LaTeX file instead.
+
+7. **Descriptive comparison prose.** Add a short statement comparing correlation differences and model accuracy differences **without** leaning on overall significance or \(p\)-values—were changes noticed and in what direction?
+
+8. **This log.** Append `USER_PROMPTS_LOG.md` with prompts from this chat.
+
+Implementation notes tied to the above (for traceability):
+
+- Added/updated `OverviewPage` distribution + bootstrap CI panels; `ResearchDistributionFigure`, `MeanDifferenceCiFigure`, `researchPlotUtils.ts`.
+- Added `docs/generate_report_figures.py`, `docs/generate_rq_research_figures.py`; extended `main.tex` with trend + RQ figures and Table 1; clarified that stale `hypothesis_tests.json` requires `python scripts/build_hypothesis_exports.py` after changing nodes/correlations.
+- Stripped embedded prose from generated PNGs; descriptive comparison paragraph added after Table 1 in `main.tex`.
