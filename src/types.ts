@@ -12,9 +12,18 @@ export interface Node {
   name: string;
   regionId: string;
   subregion?: string;
+  state?: string;
+  county?: string;
+  city?: string;
   lat: number;
   lon: number;
   isDataCenterHeavy: boolean;
+  dataCenterLikelihoodScore?: number;
+  confidenceScore?: number;
+  classificationLabel?: 'high_likelihood' | 'medium_likelihood' | 'low_likelihood';
+  reasonCodes?: string[];
+  matchedRegion?: string;
+  intermediateFeatures?: Record<string, unknown>;
 }
 
 export interface CorrelationRecord {
@@ -32,8 +41,12 @@ export interface CorrelationRecord {
 export interface ModelMetric {
   regionId: string;
   period: Period;
+  isDataCenterHeavyBucket?: 'dc' | 'nonDc' | 'all';
   modelType: 'weatherOnly' | 'weatherPlusDc';
+  modelName?: string;
   target: 'load' | 'lmp';
+  split?: 'train' | 'test' | 'all';
+  nSamples?: number;
   rmse: number;
   mae: number;
   r2: number;

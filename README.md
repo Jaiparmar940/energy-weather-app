@@ -136,3 +136,84 @@ Once weather is pulled, we’ll add a join + feature engineering script to expor
 - `public/data/correlations_by_region_period.json`
 - `public/data/model_performance.json`
 - `public/data/case_studies/{nodeId}.json`
+
+## RQ2 model training (weather-heavy, DC vs non-DC)
+
+### Node categorization update (PJM-specific)
+
+`scripts/export_pjm_metadata.py` now uses an explainable scoring system instead of zone-only assumptions.
+
+Architecture:
+- `scripts/dc_region_scoring.py` handles configurable PJM regional definitions, geography scoring, optional behavioral scoring, and confidence estimation.
+- `scripts/export_pjm_metadata.py` applies that scoring to nodes and writes:
+  - `data/exports/nodes.json`
+  - `data/exports/regions.json`
+  - `data/exports/node_dc_scoring_debug.json`
+
+Scoring formula:
+
+```text
+data_center_likelihood_score = w_geo * geographic_score + w_behavior * behavioral_score
+default: w_geo=0.70, w_behavior=0.30 (renormalized if behavioral features unavailable)
+```
+
+Label mapping:
+- `high_likelihood` if score >= 0.75
+- `medium_likelihood` if 0.40 <= score < 0.75
+- `low_likelihood` if score < 0.40
+
+PJM assumptions:
+- Northern Virginia in `DOM` is strongest regional signal.
+- Zone membership alone is insufficient; county/city/centroid proximity provides stronger evidence.
+- Behavioral flatness/persistence is optional and treated conservatively.
+
+### Rebuild metadata with new categorization
+
+```bash
+python scripts/export_pjm_metadata.py
+```
+
+Optional node attributes input (if you have county/city/state per node):
+
+```bash
+python scripts/export_pjm_metadata.py --node-attributes-csv data/your_node_attributes.csv
+```
+
+### Recompute correlations with updated categories
+
+`scripts/build_analysis_exports.py` now sets `isDataCenterHeavyBucket` from the score-driven classification.
+
+```bash
+python scripts/build_analysis_exports.py --year 2024 --limit-nodes 15 --prefer-dc-heavy
+```
+
+### Retrain RQ2 models with updated categories
+
+To regenerate model metrics for Research Question 2 (prediction accuracy differences between data-center-heavy and non-heavy regions), run:
+
+```bash
+python scripts/train_rq2_models.py --years 2023 2024 --limit-nodes 4 --prefer-dc-heavy --max-da-files-per-year 3 --test-start-year 2024
+npm run sync:data
+```
+
+This script trains an expanded model suite (LinearRegression, Ridge, Lasso, RandomForest, GradientBoosting, ExtraTrees) for both targets:
+- `lmp` (day-ahead price proxy)
+- `load` (`forecast_load_mw`)
+
+It writes metrics to:
+- `data/exports/model_performance.json`
+- `public/data/model_performance.json` (after `npm run sync:data`)
+
+Each metric row includes region, period, bucket (`dc`/`nonDc`), model type (`weatherOnly`/`weatherPlusDc`), model name, sample count, RMSE, MAE, and R².
+
+### Synthetic demo data (for quick validation)
+
+Run demo scoring with:
+
+```bash
+python scripts/run_dc_scoring_demo.py
+```
+
+Demo inputs:
+- `data/samples/pjm_nodes_synthetic.csv`
+- `data/samples/pjm_timeseries_synthetic.csv`

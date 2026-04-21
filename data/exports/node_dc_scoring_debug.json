@@ -1,23 +1,15 @@
 [
   {
-    "id": "67165681",
-    "name": "ORCHARD",
-    "regionId": "AECO",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 29.6041269,
-    "lon": -95.9696778,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0416,
-    "confidenceScore": 0.3527,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "67165681",
+    "zone": "AECO",
+    "data_center_likelihood_score": 0.0416,
+    "confidence_score": 0.3527,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.0416,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -38,24 +30,16 @@
     }
   },
   {
-    "id": "34509175",
-    "name": "AMOS",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 48.5718519,
-    "lon": -78.1160856,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.221,
-    "confidenceScore": 0.4155,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509175",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.221,
+    "confidence_score": 0.4155,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.221,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -76,24 +60,16 @@
     }
   },
   {
-    "id": "34509177",
-    "name": "AXTON",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 36.659582,
-    "lon": -79.711978,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2158,
-    "confidenceScore": 0.4137,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509177",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2158,
+    "confidence_score": 0.4137,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2158,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -114,24 +90,16 @@
     }
   },
   {
-    "id": "34509183",
-    "name": "CLOVERDALE",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.8064632,
-    "lon": -123.0178759,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.221,
-    "confidenceScore": 0.4155,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509183",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.221,
+    "confidence_score": 0.4155,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.221,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -152,24 +120,16 @@
     }
   },
   {
-    "id": "34509185",
-    "name": "COOK",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 41.8197385,
-    "lon": -87.756525,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.221,
-    "confidenceScore": 0.4155,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509185",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.221,
+    "confidence_score": 0.4155,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.221,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -190,24 +150,16 @@
     }
   },
   {
-    "id": "34509191",
-    "name": "GAVIN",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 35.1909233,
-    "lon": -90.2198175,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2234,
-    "confidenceScore": 0.4163,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509191",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2234,
+    "confidence_score": 0.4163,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2234,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -228,24 +180,16 @@
     }
   },
   {
-    "id": "34509193",
-    "name": "HANGING ROCK",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.56008,
-    "lon": -82.7209975,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2297,
-    "confidenceScore": 0.4185,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509193",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2297,
+    "confidence_score": 0.4185,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2297,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -266,24 +210,16 @@
     }
   },
   {
-    "id": "34509195",
-    "name": "JACKSONS FERRY",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.3385153,
-    "lon": -75.6974925,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2229,
-    "confidenceScore": 0.4161,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509195",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2229,
+    "confidence_score": 0.4161,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2229,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -304,24 +240,16 @@
     }
   },
   {
-    "id": "34509197",
-    "name": "JEFFERSON",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 29.834772,
-    "lon": -94.1704496,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.221,
-    "confidenceScore": 0.4155,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509197",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.221,
+    "confidence_score": 0.4155,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.221,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -342,24 +270,16 @@
     }
   },
   {
-    "id": "34509199",
-    "name": "JOSHUA FALLS",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.4251432,
-    "lon": -79.0444665,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2184,
-    "confidenceScore": 0.4146,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509199",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2184,
+    "confidence_score": 0.4146,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2184,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -380,24 +300,16 @@
     }
   },
   {
-    "id": "34509205",
-    "name": "MARYSVILLE",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 48.0517429,
-    "lon": -122.1768209,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.221,
-    "confidenceScore": 0.4155,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509205",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.221,
+    "confidence_score": 0.4155,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.221,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -418,24 +330,16 @@
     }
   },
   {
-    "id": "34509207",
-    "name": "MOUNTAINEER",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.5211086,
-    "lon": -112.2839287,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2225,
-    "confidenceScore": 0.416,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509207",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2225,
+    "confidence_score": 0.416,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2225,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -456,24 +360,16 @@
     }
   },
   {
-    "id": "34509209",
-    "name": "NORTH PROCTORVILLE",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 34.4766061,
-    "lon": -79.0363154,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.219,
-    "confidenceScore": 0.4148,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509209",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.219,
+    "confidence_score": 0.4148,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.219,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -494,24 +390,16 @@
     }
   },
   {
-    "id": "34509213",
-    "name": "ROCKPORT",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 28.0205733,
-    "lon": -97.0544341,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2234,
-    "confidenceScore": 0.4163,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509213",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2234,
+    "confidence_score": 0.4163,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2234,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -532,24 +420,16 @@
     }
   },
   {
-    "id": "34509215",
-    "name": "SOUTH CANTON",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 34.2167625,
-    "lon": -84.5046516,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.219,
-    "confidenceScore": 0.4148,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509215",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.219,
+    "confidence_score": 0.4148,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.219,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -570,24 +450,16 @@
     }
   },
   {
-    "id": "34509219",
-    "name": "WYOMING",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 43.1700264,
-    "lon": -107.568534,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.219,
-    "confidenceScore": 0.4148,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "34509219",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.219,
+    "confidence_score": 0.4148,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.219,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -608,24 +480,16 @@
     }
   },
   {
-    "id": "35084669",
-    "name": "FLATLICK",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.8664654,
-    "lon": -77.4661677,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2289,
-    "confidenceScore": 0.4182,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "35084669",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2289,
+    "confidence_score": 0.4182,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2289,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -646,24 +510,16 @@
     }
   },
   {
-    "id": "1356178203",
-    "name": "SORENSON",
-    "regionId": "AEP",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.6454243,
-    "lon": -122.0664291,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2153,
-    "confidenceScore": 0.4135,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "aep_columbus_ohio",
-    "reasonCodes": [
+    "node_id": "1356178203",
+    "zone": "AEP",
+    "data_center_likelihood_score": 0.2153,
+    "confidence_score": 0.4135,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = AEP matched aep_columbus_ohio, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "aep_columbus_ohio",
+    "intermediate_features": {
       "geographic_score": 0.2153,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -684,24 +540,16 @@
     }
   },
   {
-    "id": "5022431",
-    "name": "BEDINGTON",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.5223201,
-    "lon": -77.9055525,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1718,
-    "confidenceScore": 0.3983,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "5022431",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1718,
+    "confidence_score": 0.3983,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1718,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -722,24 +570,16 @@
     }
   },
   {
-    "id": "5022434",
-    "name": "CABOT",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 34.974532,
-    "lon": -92.0165336,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1682,
-    "confidenceScore": 0.397,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "5022434",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1682,
+    "confidence_score": 0.397,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1682,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -760,24 +600,16 @@
     }
   },
   {
-    "id": "5022437",
-    "name": "HARRISON",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 32.5233959,
-    "lon": -94.3982158,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1643,
-    "confidenceScore": 0.3956,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "5022437",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1643,
+    "confidence_score": 0.3956,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1643,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -798,24 +630,16 @@
     }
   },
   {
-    "id": "5022440",
-    "name": "MEADOWBROOK",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 33.3924962,
-    "lon": -86.7057403,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1671,
-    "confidenceScore": 0.3966,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "5022440",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1671,
+    "confidence_score": 0.3966,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1671,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -836,25 +660,17 @@
     }
   },
   {
-    "id": "5022441",
-    "name": "PLEASANTS",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.370369,
-    "lon": -81.1545062,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1897,
-    "confidenceScore": 0.4045,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "5022441",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1897,
+    "confidence_score": 0.4045,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match",
       "near western_pa_wv_rural centroid at 154 km"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1897,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -875,25 +691,17 @@
     }
   },
   {
-    "id": "5022442",
-    "name": "PRUNTYTOWN",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.3339799,
-    "lon": -80.076746,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2383,
-    "confidenceScore": 0.4215,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "5022442",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.2383,
+    "confidence_score": 0.4215,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match",
       "near western_pa_wv_rural centroid at 123 km"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.2383,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -914,24 +722,16 @@
     }
   },
   {
-    "id": "11517088",
-    "name": "SOUTHBEND",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 35.5819111,
-    "lon": -78.758464,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1633,
-    "confidenceScore": 0.3953,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "11517088",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1633,
+    "confidence_score": 0.3953,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1633,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -952,24 +752,16 @@
     }
   },
   {
-    "id": "77260083",
-    "name": "NORTH LONGVIEW",
-    "regionId": "APS",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 35.0266528,
-    "lon": -80.7951237,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1692,
-    "confidenceScore": 0.3973,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "77260083",
+    "zone": "APS",
+    "data_center_likelihood_score": 0.1692,
+    "confidence_score": 0.3973,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = APS matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1692,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -990,25 +782,17 @@
     }
   },
   {
-    "id": "1076374013",
-    "name": "CRANBERRY",
-    "regionId": "ATSI",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.7099343,
-    "lon": -80.1060506,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2834,
-    "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "1076374013",
+    "zone": "ATSI",
+    "data_center_likelihood_score": 0.2834,
+    "confidence_score": 0.4373,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = ATSI matched western_pa_wv_rural, but no strong county/city match",
       "within 31 km of western_pa_wv_rural centroid"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.2834,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1029,24 +813,16 @@
     }
   },
   {
-    "id": "33108559",
-    "name": "112 WILTON",
-    "regionId": "COMED",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 43.109378,
-    "lon": -73.7417668,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2247,
-    "confidenceScore": 0.4168,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "comed_chicago_suburbs",
-    "reasonCodes": [
+    "node_id": "33108559",
+    "zone": "COMED",
+    "data_center_likelihood_score": 0.2247,
+    "confidence_score": 0.4168,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = COMED matched comed_chicago_suburbs, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "comed_chicago_suburbs",
+    "intermediate_features": {
       "geographic_score": 0.2247,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1067,24 +843,16 @@
     }
   },
   {
-    "id": "33108561",
-    "name": "167 PLANO",
-    "regionId": "COMED",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 31.0203303,
-    "lon": -94.8486717,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2184,
-    "confidenceScore": 0.4146,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "comed_chicago_suburbs",
-    "reasonCodes": [
+    "node_id": "33108561",
+    "zone": "COMED",
+    "data_center_likelihood_score": 0.2184,
+    "confidence_score": 0.4146,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = COMED matched comed_chicago_suburbs, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "comed_chicago_suburbs",
+    "intermediate_features": {
       "geographic_score": 0.2184,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1105,24 +873,16 @@
     }
   },
   {
-    "id": "33108563",
-    "name": "23 COLLINS",
-    "regionId": "COMED",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 36.5834648,
-    "lon": -80.3446074,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2247,
-    "confidenceScore": 0.4168,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "comed_chicago_suburbs",
-    "reasonCodes": [
+    "node_id": "33108563",
+    "zone": "COMED",
+    "data_center_likelihood_score": 0.2247,
+    "confidence_score": 0.4168,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = COMED matched comed_chicago_suburbs, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "comed_chicago_suburbs",
+    "intermediate_features": {
       "geographic_score": 0.2247,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1143,24 +903,16 @@
     }
   },
   {
-    "id": "35010339",
-    "name": "CARSON",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 33.8322043,
-    "lon": -118.2517547,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3167,
-    "confidenceScore": 0.449,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010339",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3167,
+    "confidence_score": 0.449,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3167,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1181,24 +933,16 @@
     }
   },
   {
-    "id": "35010341",
-    "name": "CHICKAHOMINY",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.6082008,
-    "lon": -77.4130375,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2881,
-    "confidenceScore": 0.439,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010341",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2881,
+    "confidence_score": 0.439,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2881,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1219,24 +963,16 @@
     }
   },
   {
-    "id": "35010343",
-    "name": "CLOVER",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 35.1112478,
-    "lon": -81.2264646,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2808,
-    "confidenceScore": 0.4364,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010343",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2808,
+    "confidence_score": 0.4364,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2808,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1257,24 +993,16 @@
     }
   },
   {
-    "id": "35010345",
-    "name": "ELMONT",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.7053335,
-    "lon": -73.7078294,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3,
-    "confidenceScore": 0.4431,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010345",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3,
+    "confidence_score": 0.4431,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1295,24 +1023,16 @@
     }
   },
   {
-    "id": "35010349",
-    "name": "NORTH ANNA",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.890973,
-    "lon": -77.5174836,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2853,
-    "confidenceScore": 0.438,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010349",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2853,
+    "confidence_score": 0.438,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2853,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1333,24 +1053,16 @@
     }
   },
   {
-    "id": "35010351",
-    "name": "FENTRESS",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 29.7559083,
-    "lon": -97.7768042,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2929,
-    "confidenceScore": 0.4406,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010351",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2929,
+    "confidence_score": 0.4406,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2929,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1371,24 +1083,16 @@
     }
   },
   {
-    "id": "35010355",
-    "name": "SURRY",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 36.4135582,
-    "lon": -80.7013751,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3,
-    "confidenceScore": 0.4431,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010355",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3,
+    "confidence_score": 0.4431,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1409,24 +1113,16 @@
     }
   },
   {
-    "id": "35010357",
-    "name": "YADKIN",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 36.1497114,
-    "lon": -80.67623,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2808,
-    "confidenceScore": 0.4364,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010357",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2808,
+    "confidence_score": 0.4364,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2808,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1447,24 +1143,16 @@
     }
   },
   {
-    "id": "35010359",
-    "name": "CHANCELLOR",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 43.372118,
-    "lon": -96.987179,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3132,
-    "confidenceScore": 0.4477,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010359",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3132,
+    "confidence_score": 0.4477,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3132,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1485,24 +1173,16 @@
     }
   },
   {
-    "id": "35010361",
-    "name": "CLIFTON",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.8584328,
-    "lon": -74.1637553,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2962,
-    "confidenceScore": 0.4418,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010361",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2962,
+    "confidence_score": 0.4418,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2962,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1523,24 +1203,16 @@
     }
   },
   {
-    "id": "35010363",
-    "name": "LADYSMITH",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 48.9936579,
-    "lon": -123.8157964,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2875,
-    "confidenceScore": 0.4387,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010363",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2875,
+    "confidence_score": 0.4387,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2875,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1561,25 +1233,17 @@
     }
   },
   {
-    "id": "35010365",
-    "name": "LOUDOUN",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.0984586,
-    "lon": -77.6705008,
-    "isDataCenterHeavy": true,
-    "dataCenterLikelihoodScore": 0.5016,
-    "confidenceScore": 0.5137,
-    "classificationLabel": "medium_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010365",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.5016,
+    "confidence_score": 0.5137,
+    "classification_label": "medium_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match",
       "within 16 km of northern_virginia_dom centroid"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.5016,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1600,24 +1264,16 @@
     }
   },
   {
-    "id": "35010367",
-    "name": "MORRISVILLE",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 35.824341,
-    "lon": -78.8300321,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2812,
-    "confidenceScore": 0.4365,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010367",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2812,
+    "confidence_score": 0.4365,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2812,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1638,24 +1294,16 @@
     }
   },
   {
-    "id": "35010371",
-    "name": "PLEASANT VIEW",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 36.3942164,
-    "lon": -87.0366685,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2864,
-    "confidenceScore": 0.4384,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010371",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2864,
+    "confidence_score": 0.4384,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2864,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1676,24 +1324,16 @@
     }
   },
   {
-    "id": "35010373",
-    "name": "POSSUM POINT",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 34.4875185,
-    "lon": -110.7599042,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2962,
-    "confidenceScore": 0.4418,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010373",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2962,
+    "confidence_score": 0.4418,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2962,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1714,24 +1354,16 @@
     }
   },
   {
-    "id": "35010375",
-    "name": "BATH COUNTY",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.1245248,
-    "lon": -83.7249243,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.314,
-    "confidenceScore": 0.448,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010375",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.314,
+    "confidence_score": 0.448,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.314,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1752,24 +1384,16 @@
     }
   },
   {
-    "id": "35010377",
-    "name": "CUNNINGHAM",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.6439067,
-    "lon": -98.4311883,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2833,
-    "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010377",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2833,
+    "confidence_score": 0.4373,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2833,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1790,24 +1414,16 @@
     }
   },
   {
-    "id": "35010379",
-    "name": "DOOMS",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.1061005,
-    "lon": -78.8463592,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2833,
-    "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010379",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2833,
+    "confidence_score": 0.4373,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2833,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1828,24 +1444,16 @@
     }
   },
   {
-    "id": "35010381",
-    "name": "FLUVANNA",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.8488527,
-    "lon": -78.2789994,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2875,
-    "confidenceScore": 0.4387,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010381",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2875,
+    "confidence_score": 0.4387,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2875,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1866,24 +1474,16 @@
     }
   },
   {
-    "id": "35010383",
-    "name": "LEXINGTON",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.0464066,
-    "lon": -84.4970393,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3033,
-    "confidenceScore": 0.4443,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010383",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3033,
+    "confidence_score": 0.4443,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3033,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1904,24 +1504,16 @@
     }
   },
   {
-    "id": "35010385",
-    "name": "MT STORM",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.2773263,
-    "lon": -79.2408725,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2929,
-    "confidenceScore": 0.4406,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010385",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2929,
+    "confidence_score": 0.4406,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2929,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1942,24 +1534,16 @@
     }
   },
   {
-    "id": "35010387",
-    "name": "VALLEY",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 41.5595723,
-    "lon": -98.9805484,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3033,
-    "confidenceScore": 0.4443,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "35010387",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3033,
+    "confidence_score": 0.4443,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3033,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -1980,24 +1564,16 @@
     }
   },
   {
-    "id": "62871513",
-    "name": "BRISTERS",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 31.3865624,
-    "lon": -90.2325906,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3,
-    "confidenceScore": 0.4431,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "62871513",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3,
+    "confidence_score": 0.4431,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2018,24 +1594,16 @@
     }
   },
   {
-    "id": "62871515",
-    "name": "GREENLAND GAP",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.1553172,
-    "lon": -79.0729244,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2816,
-    "confidenceScore": 0.4367,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "62871515",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2816,
+    "confidence_score": 0.4367,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2816,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2056,25 +1624,17 @@
     }
   },
   {
-    "id": "1107333036",
-    "name": "FRONT ROYAL",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 38.9179069,
-    "lon": -78.1918077,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3959,
-    "confidenceScore": 0.4767,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "1107333036",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3959,
+    "confidence_score": 0.4767,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match",
       "near northern_virginia_dom centroid at 62 km"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3959,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2095,24 +1655,16 @@
     }
   },
   {
-    "id": "1356178171",
-    "name": "BRAMBLET",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.8339405,
-    "lon": -86.6031566,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2929,
-    "confidenceScore": 0.4406,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "1356178171",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2929,
+    "confidence_score": 0.4406,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2929,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2133,24 +1685,16 @@
     }
   },
   {
-    "id": "1356178181",
-    "name": "MOSBY",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.315559,
-    "lon": -94.2938356,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2833,
-    "confidenceScore": 0.4373,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "1356178181",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.2833,
+    "confidence_score": 0.4373,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.2833,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2171,24 +1715,16 @@
     }
   },
   {
-    "id": "1356178183",
-    "name": "RAWLINGS",
-    "regionId": "DOM",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.540319,
-    "lon": -78.8868609,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3125,
-    "confidenceScore": 0.4475,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "1356178183",
+    "zone": "DOM",
+    "data_center_likelihood_score": 0.3125,
+    "confidence_score": 0.4475,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = DOM matched northern_virginia_dom, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.3125,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2209,24 +1745,16 @@
     }
   },
   {
-    "id": "52458",
-    "name": "KEENEY",
-    "regionId": "DPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.6190007,
-    "lon": -75.7032652,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0367,
-    "confidenceScore": 0.351,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "comed_chicago_suburbs",
-    "reasonCodes": [
+    "node_id": "52458",
+    "zone": "DPL",
+    "data_center_likelihood_score": 0.0367,
+    "confidence_score": 0.351,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "comed_chicago_suburbs",
+    "intermediate_features": {
       "geographic_score": 0.0367,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2247,24 +1775,16 @@
     }
   },
   {
-    "id": "21616495",
-    "name": "ROCKSPRINGS",
-    "regionId": "DPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 30.0166866,
-    "lon": -100.208556,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0421,
-    "confidenceScore": 0.3529,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "21616495",
+    "zone": "DPL",
+    "data_center_likelihood_score": 0.0421,
+    "confidence_score": 0.3529,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0421,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2285,24 +1805,16 @@
     }
   },
   {
-    "id": "52465",
-    "name": "SMITHBURG",
-    "regionId": "JCPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.2090006,
-    "lon": -74.352926,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0625,
-    "confidenceScore": 0.36,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "52465",
+    "zone": "JCPL",
+    "data_center_likelihood_score": 0.0625,
+    "confidence_score": 0.36,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0625,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2323,24 +1835,16 @@
     }
   },
   {
-    "id": "52456",
-    "name": "HUNTERSTOWN",
-    "regionId": "METED",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.8823181,
-    "lon": -77.1602604,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0588,
-    "confidenceScore": 0.3587,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "52456",
+    "zone": "METED",
+    "data_center_likelihood_score": 0.0588,
+    "confidence_score": 0.3587,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0588,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2361,24 +1865,16 @@
     }
   },
   {
-    "id": "52452",
-    "name": "ELROY",
-    "regionId": "PECO",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 43.7383106,
-    "lon": -90.2700283,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.05,
-    "confidenceScore": 0.3556,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "52452",
+    "zone": "PECO",
+    "data_center_likelihood_score": 0.05,
+    "confidence_score": 0.3556,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.05,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2399,24 +1895,16 @@
     }
   },
   {
-    "id": "52471",
-    "name": "WHITPAIN",
-    "regionId": "PECO",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.1576941,
-    "lon": -75.2760091,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0375,
-    "confidenceScore": 0.3512,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "52471",
+    "zone": "PECO",
+    "data_center_likelihood_score": 0.0375,
+    "confidence_score": 0.3512,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0375,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2437,25 +1925,17 @@
     }
   },
   {
-    "id": "52450",
-    "name": "CONEMAUGH",
-    "regionId": "PENELEC",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.3919679,
-    "lon": -79.0650147,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2712,
-    "confidenceScore": 0.433,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "52450",
+    "zone": "PENELEC",
+    "data_center_likelihood_score": 0.2712,
+    "confidence_score": 0.433,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PENELEC matched western_pa_wv_rural, but no strong county/city match",
       "within 78 km of western_pa_wv_rural centroid"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.2712,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2476,24 +1956,16 @@
     }
   },
   {
-    "id": "52459",
-    "name": "KEYSTONE",
-    "regionId": "PENELEC",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 41.9988889,
-    "lon": -92.1979353,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.1643,
-    "confidenceScore": 0.3956,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "52459",
+    "zone": "PENELEC",
+    "data_center_likelihood_score": 0.1643,
+    "confidence_score": 0.3956,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PENELEC matched western_pa_wv_rural, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.1643,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2514,25 +1986,17 @@
     }
   },
   {
-    "id": "1666738891",
-    "name": "VINCO",
-    "regionId": "PENELEC",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.4123645,
-    "lon": -78.8450651,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2512,
-    "confidenceScore": 0.426,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "western_pa_wv_rural",
-    "reasonCodes": [
+    "node_id": "1666738891",
+    "zone": "PENELEC",
+    "data_center_likelihood_score": 0.2512,
+    "confidence_score": 0.426,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PENELEC matched western_pa_wv_rural, but no strong county/city match",
       "near western_pa_wv_rural centroid at 97 km"
     ],
-    "intermediateFeatures": {
+    "matched_region": "western_pa_wv_rural",
+    "intermediate_features": {
       "geographic_score": 0.2512,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2553,25 +2017,17 @@
     }
   },
   {
-    "id": "52443",
-    "name": "ALBURTIS",
-    "regionId": "PPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.5114787,
-    "lon": -75.6036993,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2416,
-    "confidenceScore": 0.4227,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "ppl_susquehanna_berwick",
-    "reasonCodes": [
+    "node_id": "52443",
+    "zone": "PPL",
+    "data_center_likelihood_score": 0.2416,
+    "confidence_score": 0.4227,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PPL matched ppl_susquehanna_berwick, but no strong county/city match",
       "near ppl_susquehanna_berwick centroid at 84 km"
     ],
-    "intermediateFeatures": {
+    "matched_region": "ppl_susquehanna_berwick",
+    "intermediate_features": {
       "geographic_score": 0.2416,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2592,24 +2048,16 @@
     }
   },
   {
-    "id": "52455",
-    "name": "HOSENSACK",
-    "regionId": "PPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.4537098,
-    "lon": -75.4968489,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2242,
-    "confidenceScore": 0.4166,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "ppl_susquehanna_berwick",
-    "reasonCodes": [
+    "node_id": "52455",
+    "zone": "PPL",
+    "data_center_likelihood_score": 0.2242,
+    "confidence_score": 0.4166,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PPL matched ppl_susquehanna_berwick, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "ppl_susquehanna_berwick",
+    "intermediate_features": {
       "geographic_score": 0.2242,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2630,24 +2078,16 @@
     }
   },
   {
-    "id": "52457",
-    "name": "JUNIATA",
-    "regionId": "PPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.5368022,
-    "lon": -77.4300565,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2173,
-    "confidenceScore": 0.4142,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "ppl_susquehanna_berwick",
-    "reasonCodes": [
+    "node_id": "52457",
+    "zone": "PPL",
+    "data_center_likelihood_score": 0.2173,
+    "confidence_score": 0.4142,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PPL matched ppl_susquehanna_berwick, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "ppl_susquehanna_berwick",
+    "intermediate_features": {
       "geographic_score": 0.2173,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2668,25 +2108,17 @@
     }
   },
   {
-    "id": "52466",
-    "name": "SUNBURY",
-    "regionId": "PPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.8619754,
-    "lon": -76.7936252,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.3167,
-    "confidenceScore": 0.449,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "ppl_susquehanna_berwick",
-    "reasonCodes": [
+    "node_id": "52466",
+    "zone": "PPL",
+    "data_center_likelihood_score": 0.3167,
+    "confidence_score": 0.449,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PPL matched ppl_susquehanna_berwick, but no strong county/city match",
       "near ppl_susquehanna_berwick centroid at 54 km"
     ],
-    "intermediateFeatures": {
+    "matched_region": "ppl_susquehanna_berwick",
+    "intermediate_features": {
       "geographic_score": 0.3167,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2707,24 +2139,16 @@
     }
   },
   {
-    "id": "52467",
-    "name": "SUSQUEHANNA",
-    "regionId": "PPL",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 41.9439867,
-    "lon": -75.6041902,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.2137,
-    "confidenceScore": 0.4129,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "ppl_susquehanna_berwick",
-    "reasonCodes": [
+    "node_id": "52467",
+    "zone": "PPL",
+    "data_center_likelihood_score": 0.2137,
+    "confidence_score": 0.4129,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "zone = PPL matched ppl_susquehanna_berwick, but no strong county/city match"
     ],
-    "intermediateFeatures": {
+    "matched_region": "ppl_susquehanna_berwick",
+    "intermediate_features": {
       "geographic_score": 0.2137,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2745,24 +2169,16 @@
     }
   },
   {
-    "id": "52444",
-    "name": "BRANCHBURG",
-    "regionId": "PSEG",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.5688245,
-    "lon": -74.7002739,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0588,
-    "confidenceScore": 0.3587,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "52444",
+    "zone": "PSEG",
+    "data_center_likelihood_score": 0.0588,
+    "confidence_score": 0.3587,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0588,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2783,24 +2199,16 @@
     }
   },
   {
-    "id": "52451",
-    "name": "DEANS",
-    "regionId": "PSEG",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 40.404273,
-    "lon": -74.5159872,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0462,
-    "confidenceScore": 0.3543,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "52451",
+    "zone": "PSEG",
+    "data_center_likelihood_score": 0.0462,
+    "confidence_score": 0.3543,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0462,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2821,24 +2229,16 @@
     }
   },
   {
-    "id": "52464",
-    "name": "SALEM",
-    "regionId": "PSEG",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 39.4701067,
-    "lon": -75.5380789,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0411,
-    "confidenceScore": 0.3525,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "ppl_susquehanna_berwick",
-    "reasonCodes": [
+    "node_id": "52464",
+    "zone": "PSEG",
+    "data_center_likelihood_score": 0.0411,
+    "confidence_score": 0.3525,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "ppl_susquehanna_berwick",
+    "intermediate_features": {
       "geographic_score": 0.0411,
       "behavioral_score": 0.0,
       "geo_debug": {
@@ -2859,24 +2259,16 @@
     }
   },
   {
-    "id": "1356178185",
-    "name": "ROSELAND",
-    "regionId": "PSEG",
-    "subregion": "EHV",
-    "state": null,
-    "county": null,
-    "city": null,
-    "lat": 37.2811683,
-    "lon": -94.8505165,
-    "isDataCenterHeavy": false,
-    "dataCenterLikelihoodScore": 0.0429,
-    "confidenceScore": 0.3531,
-    "classificationLabel": "low_likelihood",
-    "matchedRegion": "northern_virginia_dom",
-    "reasonCodes": [
+    "node_id": "1356178185",
+    "zone": "PSEG",
+    "data_center_likelihood_score": 0.0429,
+    "confidence_score": 0.3531,
+    "classification_label": "low_likelihood",
+    "reason_codes": [
       "no strong geographic or behavioral signal; conservative low likelihood"
     ],
-    "intermediateFeatures": {
+    "matched_region": "northern_virginia_dom",
+    "intermediate_features": {
       "geographic_score": 0.0429,
       "behavioral_score": 0.0,
       "geo_debug": {

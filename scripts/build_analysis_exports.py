@@ -141,6 +141,13 @@ def infer_period(ts: pd.Timestamp) -> str:
     return "recentAI"
 
 
+def node_dc_bucket(node_row: pd.Series) -> str:
+    label = str(node_row.get("classificationLabel") or "").strip().lower()
+    if label in {"high_likelihood", "medium_likelihood"}:
+        return "dc"
+    return "dc" if bool(node_row.get("isDataCenterHeavy", False)) else "nonDc"
+
+
 def main():
     import argparse
 
@@ -338,7 +345,7 @@ def main():
                     "variable": var,
                     "target": "lmp",
                     "correlation": c,
-                    "isDataCenterHeavyBucket": "all",
+                    "isDataCenterHeavyBucket": node_dc_bucket(node),
                 }
             )
 

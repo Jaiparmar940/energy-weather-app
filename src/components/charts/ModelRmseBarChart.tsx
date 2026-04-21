@@ -9,8 +9,10 @@ export default function ModelRmseBarChart({ metrics }: Props) {
   const grouped = new Map<string, { label: string; weatherOnly?: number; weatherPlusDc?: number }>();
 
   metrics.forEach((m) => {
-    const key = `${m.regionId}-${m.period}-${m.target}`;
-    const label = `${m.regionId}-${m.period}-${m.target}`;
+    const bucket = m.isDataCenterHeavyBucket ?? 'all';
+    const modelName = m.modelName ?? 'model';
+    const key = `${m.regionId}-${m.period}-${m.target}-${bucket}-${modelName}`;
+    const label = `${m.regionId}-${bucket}-${m.target}-${modelName}`;
     const existing = grouped.get(key) ?? { label };
     if (m.modelType === 'weatherOnly') existing.weatherOnly = m.rmse;
     if (m.modelType === 'weatherPlusDc') existing.weatherPlusDc = m.rmse;

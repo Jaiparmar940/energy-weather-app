@@ -5,6 +5,14 @@ import type { CorrelationRecord, Node } from '../types';
 import CorrelationBarChart from '../components/charts/CorrelationBarChart';
 import CorrelationTrendChart from '../components/charts/CorrelationTrendChart';
 
+function isDcLikely(node?: Node): boolean {
+  if (!node) return false;
+  if (node.classificationLabel) {
+    return node.classificationLabel === 'high_likelihood' || node.classificationLabel === 'medium_likelihood';
+  }
+  return node.isDataCenterHeavy;
+}
+
 function ToggleList({
   title,
   items,
@@ -331,7 +339,7 @@ function CorrelationTable({
               <tr key={idx}>
                 <td>{row.nodeId ?? '—'}</td>
                 <td>{node?.name ?? '—'}</td>
-                <td>{node ? (node.isDataCenterHeavy ? 'Yes' : 'No') : '—'}</td>
+                <td>{node ? (isDcLikely(node) ? 'Yes' : 'No') : '—'}</td>
                 <td>{row.regionId}</td>
                 <td>{row.year ?? '—'}</td>
                 <td>{row.period}</td>
@@ -395,6 +403,9 @@ export default function CorrelationsPage() {
   const [selectedNodeIds, setSelectedNodeIds] = useState<Set<string>>(new Set());
   const [selectedVariables, setSelectedVariables] = useState<Set<string>>(new Set());
   const [dcFilter, setDcFilter] = useState<'all' | 'dc' | 'nonDc'>('all');
+  const [likelihoodFilter, setLikelihoodFilter] = useState<
+    'all' | 'high_likelihood' | 'medium_likelihood' | 'low_likelihood'
+  >('all');
   const [fromYear, setFromYear] = useState<number | undefined>(undefined);
   const [toYear, setToYear] = useState<number | undefined>(undefined);
   const [showAllRegions, setShowAllRegions] = useState(false);
@@ -406,8 +417,14 @@ export default function CorrelationsPage() {
         if (!r.nodeId) return false;
         const node = nodeById.get(r.nodeId);
         if (!node) return false;
-        if (dcFilter === 'dc' && !node.isDataCenterHeavy) return false;
-        if (dcFilter === 'nonDc' && node.isDataCenterHeavy) return false;
+        if (dcFilter === 'dc' && !isDcLikely(node)) return false;
+        if (dcFilter === 'nonDc' && isDcLikely(node)) return false;
+      }
+      if (likelihoodFilter !== 'all') {
+        if (!r.nodeId) return false;
+        const node = nodeById.get(r.nodeId);
+        if (!node) return false;
+        if ((node.classificationLabel ?? 'low_likelihood') !== likelihoodFilter) return false;
       }
       if (selectedNodeIds.size > 0) {
         if (!r.nodeId || !selectedNodeIds.has(r.nodeId)) return false;
@@ -423,16 +440,34 @@ export default function CorrelationsPage() {
       }
       return true;
     });
-  }, [correlations, selectedNodeIds, selectedVariables, dcFilter, nodeById, fromYear, toYear]);
+  }, [
+    correlations,
+    selectedNodeIds,
+    selectedVariables,
+    dcFilter,
+    likelihoodFilter,
+    nodeById,
+    fromYear,
+    toYear,
+  ]);
 
   const nodeIdsForPicker = useMemo(() => {
     if (dcFilter === 'all') return availableNodeIds;
     return availableNodeIds.filter((id) => {
       const node = nodeById.get(id);
       if (!node) return false;
-      return dcFilter === 'dc' ? node.isDataCenterHeavy : !node.isDataCenterHeavy;
+      return dcFilter === 'dc' ? isDcLikely(node) : !isDcLikely(node);
     });
   }, [availableNodeIds, dcFilter, nodeById]);
+
+  const nodeIdsAfterLikelihood = useMemo(() => {
+    if (likelihoodFilter === 'all') return nodeIdsForPicker;
+    return nodeIdsForPicker.filter((id) => {
+      const node = nodeById.get(id);
+      if (!node) return false;
+      return (node.classificationLabel ?? 'low_likelihood') === likelihoodFilter;
+    });
+  }, [nodeIdsForPicker, nodeById, likelihoodFilter]);
 
   return (
     <div>
@@ -573,6 +608,22 @@ export default function CorrelationsPage() {
           </div>
           <div style={{ marginTop: 10, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
             <label style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+              <span>Likelihood label</span>
+              <select
+                value={likelihoodFilter}
+                onChange={(e) =>
+                  setLikelihoodFilter(
+                    e.target.value as 'all' | 'high_likelihood' | 'medium_likelihood' | 'low_likelihood',
+                  )
+                }
+              >
+                <option value="all">All labels</option>
+                <option value="high_likelihood">High likelihood</option>
+                <option value="medium_likelihood">Medium likelihood</option>
+                <option value="low_likelihood">Low likelihood</option>
+              </select>
+            </label>
+            <label style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
               <span>From year</span>
               <select
                 value={fromYear ?? ''}
@@ -607,7 +658,7 @@ export default function CorrelationsPage() {
         <div style={{ marginTop: 12, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
           <ToggleList
             title="Nodes"
-            items={nodeIdsForPicker}
+            items={nodeIdsAfterLikelihood}
             selected={selectedNodeIds}
             onChange={setSelectedNodeIds}
             getLabel={(id) => {

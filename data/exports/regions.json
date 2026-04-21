@@ -3,144 +3,192 @@
     "id": "AECO",
     "name": "PJM Zone AECO",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0416,
+    "avgConfidence": 0.3527
   },
   {
     "id": "AEP",
     "name": "PJM Zone AEP",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.2213,
+    "avgConfidence": 0.4156
   },
   {
     "id": "APS",
     "name": "PJM Zone APS",
     "iso": "PJM",
-    "isDataCenterHeavy": true
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.179,
+    "avgConfidence": 0.4008
   },
   {
     "id": "ATSI",
     "name": "PJM Zone ATSI",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.2834,
+    "avgConfidence": 0.4373
   },
   {
     "id": "BGE",
     "name": "PJM Zone BGE",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "COMED",
     "name": "PJM Zone COMED",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.2226,
+    "avgConfidence": 0.4161
   },
   {
     "id": "CPL",
     "name": "PJM Zone CPL",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "DAY",
     "name": "PJM Zone DAY",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "DEOK",
     "name": "PJM Zone DEOK",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "DOM",
     "name": "PJM Zone DOM",
     "iso": "PJM",
-    "isDataCenterHeavy": true
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.305,
+    "avgConfidence": 0.4449
   },
   {
     "id": "DPL",
     "name": "PJM Zone DPL",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0394,
+    "avgConfidence": 0.3519
   },
   {
     "id": "DUKE",
     "name": "PJM Zone DUKE",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "DUQ",
     "name": "PJM Zone DUQ",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "EKPC",
     "name": "PJM Zone EKPC",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "EXTERNAL",
     "name": "PJM Zone EXTERNAL",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "JCPL",
     "name": "PJM Zone JCPL",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0625,
+    "avgConfidence": 0.36
   },
   {
     "id": "METED",
     "name": "PJM Zone METED",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0588,
+    "avgConfidence": 0.3587
   },
   {
     "id": "OVEC",
     "name": "PJM Zone OVEC",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "PECO",
     "name": "PJM Zone PECO",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0437,
+    "avgConfidence": 0.3534
   },
   {
     "id": "PENELEC",
     "name": "PJM Zone PENELEC",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.2289,
+    "avgConfidence": 0.4182
   },
   {
     "id": "PEPCO",
     "name": "PJM Zone PEPCO",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   },
   {
     "id": "PPL",
     "name": "PJM Zone PPL",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.2427,
+    "avgConfidence": 0.4231
   },
   {
     "id": "PSEG",
     "name": "PJM Zone PSEG",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0473,
+    "avgConfidence": 0.3547
   },
   {
     "id": "RECO",
     "name": "PJM Zone RECO",
     "iso": "PJM",
-    "isDataCenterHeavy": false
+    "isDataCenterHeavy": false,
+    "avgLikelihood": 0.0,
+    "avgConfidence": 0.0
   }
 ]

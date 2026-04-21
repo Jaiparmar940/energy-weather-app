@@ -118,3 +118,41 @@ so we have two data folders, one in public and one in the app itself. im guessin
 36. Generate a log for all of the prompts I wrote here.
 
 ---
+
+RQ2 implementation update (weather-heavy model comparison):
+
+- Added `scripts/train_rq2_models.py` to train/evaluate 6 models (LinearRegression, Ridge, Lasso, RandomForest, GradientBoosting, ExtraTrees).
+- Uses weather-heavy features (`temp_c`, `dew_c`, `rh_pct`, `wind_ms`, `slp_hpa`, `precip_mm`, `cdh`, `hdh`) with time features and compares:
+  - `weatherOnly`
+  - `weatherPlusDc`
+- Runs dual targets:
+  - `lmp` (`total_lmp_da`)
+  - `load` (`forecast_load_mw`)
+- Writes app-ready metrics to `data/exports/model_performance.json` with bucket labels `dc` and `nonDc`, plus `modelName`, `nSamples`, and `split`.
+- Regeneration command used:
+  - `python scripts/train_rq2_models.py --years 2023 2024 --limit-nodes 4 --balanced-dc --dc-ratio 0.5 --max-da-files-per-year 6 --test-start-year 2024`
+  - `npm run sync:data`
+- Result summary from current export:
+  - 84 metric rows
+  - targets: `lmp`, `load`
+  - buckets: `dc`, `nonDc`
+  - model names: 6
+
+PJM node categorization revision (new technique):
+
+- Replaced prior zone-based assumption with explainable scoring system in `scripts/dc_region_scoring.py`.
+- Added configurable PJM regions by tier with county/city fuzzy matching + centroid/radius logic:
+  - Tier 1: Northern Virginia (DOM / Ashburn area)
+  - Tier 2: PPL Susquehanna/Berwick, AEP Columbus, COMED Chicago suburbs
+  - Tier 3: Indiana footprint and Western PA/WV clusters
+- New output fields per node:
+  - `dataCenterLikelihoodScore`
+  - `confidenceScore`
+  - `classificationLabel` (`high_likelihood` / `medium_likelihood` / `low_likelihood`)
+  - `reasonCodes`
+  - `matchedRegion`
+  - `intermediateFeatures`
+- Export script now writes `data/exports/node_dc_scoring_debug.json` for auditable debugging.
+- Correlation bucketing now uses score-driven labels (`high`/`medium` -> `dc`, else `nonDc`) instead of static zone assumptions.
+- Models retrained using new categories and exported to `data/exports/model_performance.json`.
+- Correlations UI filter updated to support likelihood label filtering in addition to DC/non-DC.

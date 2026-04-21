@@ -17,6 +17,8 @@ export interface ModelMetricFilters {
   regionIds?: string[];
   periods?: Period[];
   target?: 'load' | 'lmp';
+  modelNames?: string[];
+  isDataCenterHeavyBucket?: Array<'dc' | 'nonDc' | 'all'>;
 }
 
 const DATA_BASE = '/data';
@@ -76,11 +78,27 @@ export async function getModelMetrics(
     if (filters.target && metric.target !== filters.target) {
       return false;
     }
+    if (filters.modelNames && !filters.modelNames.includes(metric.modelName ?? '')) {
+      return false;
+    }
+    if (
+      filters.isDataCenterHeavyBucket &&
+      metric.isDataCenterHeavyBucket &&
+      !filters.isDataCenterHeavyBucket.includes(metric.isDataCenterHeavyBucket)
+    ) {
+      return false;
+    }
     return true;
   });
 }
 
 export function getCaseStudySeries(nodeId: string): Promise<CaseStudySeries[]> {
-  return fetchJson<CaseStudySeries[]>(`${DATA_BASE}/case_studies/${nodeId}.json`);
+  return fetchJson<CaseStudySeries[]>(`${DATA_BASE}/case_studies/${nodeId}.json`).catch((err) => {
+    // Some nodes do not have generated case-study files yet; return empty so UI can degrade gracefully.
+    if (err instanceof Error && err.message.includes('404')) {
+      return [];
+    }
+    throw err;
+  });
 }
 
