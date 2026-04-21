@@ -1,72 +1,3932 @@
 [
   {
-    "nodeId": "35010365",
-    "regionId": "DOM",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": 0.06747510678113607,
-    "isDataCenterHeavyBucket": "dc"
-  },
-  {
-    "nodeId": "35010365",
-    "regionId": "DOM",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.010625166001674192,
-    "isDataCenterHeavyBucket": "dc"
-  },
-  {
-    "nodeId": "35010365",
-    "regionId": "DOM",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.16561063166542273,
-    "isDataCenterHeavyBucket": "dc"
-  },
-  {
-    "nodeId": "35010365",
-    "regionId": "DOM",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.080218272064968,
-    "isDataCenterHeavyBucket": "dc"
-  },
-  {
-    "nodeId": "35010365",
-    "regionId": "DOM",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "PRECIP_MM",
-    "target": "lmp",
-    "correlation": 0.25314350492784654,
-    "isDataCenterHeavyBucket": "dc"
-  },
-  {
-    "nodeId": "35010365",
-    "regionId": "DOM",
-    "period": "recentAI",
-    "year": 2024,
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "earlyAI",
+    "year": 2021,
     "variable": "CDH",
     "target": "lmp",
-    "correlation": 0.3296891661309433,
+    "correlation": 0.21751916968353618,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.026413685001754884,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.12174015739750227,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.15581810761394074,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.07335239496210343,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.054946547549300964,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.24310982296837716,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.1882805281855437,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.26133530461593074,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.005327812117826282,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.12525183042438245,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.02678198327979299,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.29620214196021283,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.041811411045147545,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2552800815274612,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.031484743010834954,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.027213068141094917,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.006388525274654306,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.09864397300437865,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.07561466311737425,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.04927046518478665,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.18939113363504187,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.16021330900695563,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.1813823794848819,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.023073300995401697,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.09601519280728243,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.0772446582119458,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.21124103092014826,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.022057115232676013,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.26414560809775045,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.07754939654138307,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.02727671434478335,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.015834113788890103,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.08624927461823402,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.10729658714063561,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.10828699421060055,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.08054641745590663,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.18606576895005708,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.08686777967863231,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.1419773814443073,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.02413778607765856,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.16111965561682964,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.11175869347165761,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.009431882848506493,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.006917564443328487,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2367515589239196,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.02450588780705438,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.08024164181580745,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.02953355752752131,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.12730460933385881,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.11655352386622617,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.02466479263680018,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.03560645595572932,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.19876227362185506,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.057883051011351216,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.005435175890991718,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.002524499726966437,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.05401098378462198,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.07390344489357817,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08004522054750923,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.07457973268168121,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.09622231136532529,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.09561693991378045,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.17054954054948365,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.0016047028483709145,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.12887631478121345,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.09317942351291882,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.03807432812343145,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.015621346580735392,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2368963873811835,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.022687961160894624,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.03423821444932121,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.024361110352484,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.11116629411475751,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.06564978406357223,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.0769282213860662,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.08418089917181364,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.09231574006821776,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.10146386238146206,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.08839968467910338,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.045516901969834586,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.03918171319603565,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.0452504530858323,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.10163941913055484,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.09459549831446057,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.09867385793746414,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.16362670432730975,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.05759390479051827,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.023707079085340983,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": 0.04855370940116931,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08098315127139874,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.019694106042459646,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.04264410642910196,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.18893494875420874,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.13787525848949794,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.05565677323699977,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.1406321934579585,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.17716870409680424,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.008334846733092685,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.07884903986739807,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.02808672296847936,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.019447597477362126,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.0427809343378055,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2219313051821097,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.0528669340362012,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.004829822674922993,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.007930226179750439,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.07505840440573348,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.07927041402028394,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.0867027087807972,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.028798172149054085,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2120388302396525,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.01894279204141717,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.027513344216506662,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.010599601792956347,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1172154983177238,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08335859330147544,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.04956469200604328,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2801600940301678,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.09506951506006911,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.024896770515144634,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.060422432779059336,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.067197134001699,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.12415882297306555,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "earlyAI",
+    "year": 2021,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.014744713464114904,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2482955936672054,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.07341973556323701,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.12210816709343059,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2266184544766184,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08724076243771946,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.03185610513564225,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.34859387407401415,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.299953762101453,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.3154738479082313,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.019309945636369674,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.13242334513161627,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.2178068153505018,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.3839709410977827,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.23741362841882024,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5357813570929357,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.1378625629672875,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.055760885681417044,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.20086069676475418,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.14624079006306845,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.2296199024963334,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.020182863368038064,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.36331318910848936,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.21233971531531598,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.2632681690584615,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.013360963283995955,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.22494095529097494,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.18125518572916488,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.35053495322490463,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.17010242978068296,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5564774405600071,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.2698490762718875,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.19593340364279943,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0009135315873349634,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.19406269151061462,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.07269925104278074,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.3366306197658948,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.010875610808417579,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5207501663796804,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.21354854570064688,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.09089293831630783,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.021464270253434486,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2077883648891754,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.04185023999880829,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.3065930640368817,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.048187331825909806,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5641955571130276,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.26277626393199444,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.10209076440261772,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.017593389141024846,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.07722673058283883,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.05400440123773185,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.268792058591279,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.006835505575335814,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5023493979585434,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.13532886957171478,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.035941913360957256,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.005422178055209585,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.18159873447516822,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.09658603895984569,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.22408173814621185,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.013422497060306895,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.44245138035776516,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.1403424327355143,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.0018601237691897648,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.0021695855536226047,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1981105932485027,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.0016228976053109486,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.2589694628895945,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.0005320608956736718,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.46677506464545876,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.07173852597417454,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.04695278590168246,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.006384867827306748,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.15091898613146865,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.057354347853490424,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.15240379735204296,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.0175328723108934,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.34977573632448955,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.3415750778294721,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.37483198180294114,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.012563306270279346,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.29468662037260945,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.15326938368270934,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.41565030542572085,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1400303494411727,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5762924651294504,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.44617507287389785,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.4595411476306286,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.023834223756017077,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.4516954546431523,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.5560540304737245,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.0746437451416823,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5119489928548087,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.08418958126956362,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.05436383833016332,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0084986272084126,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.3037282837623277,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.1049005766802277,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.2566158001874279,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1272153952353611,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.37755978222152337,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.0004452776721559959,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.0284562033277102,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.23676539759646498,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.06289301492287575,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5148263455779678,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.11808547369309466,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.026999213917151325,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.2828504429266659,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.16363160675340735,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.23516819339282893,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.008575060243552807,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5696829721043609,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.22423982921389946,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.12626997455969152,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.006956558317872357,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.12856823392184855,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.1093855177567726,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.3092387719940387,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.023057752703989853,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.5060221361747625,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.13706509053853858,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.01159724992268694,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.02163518617514162,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.16639314656076057,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.242963090147529,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.06126061347704283,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.543736493375308,
     "isDataCenterHeavyBucket": "dc"
   },
   {
     "nodeId": "35010365",
     "regionId": "DOM",
     "period": "recentAI",
-    "year": 2024,
+    "year": 2022,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.14186217452102332,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2022,
     "variable": "HDH",
     "target": "lmp",
-    "correlation": 0.10647874692383372,
+    "correlation": -0.03480615285502375,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.2818089085733103,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1908592632576057,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.22894059898903352,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2022,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.007695479053981018,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": -0.06387150042628965,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.24685368477607827,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.17696784953068423,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.18892172823506773,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.12645662104365357,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.08424580950554522,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2954505363688324,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.04942362399853175,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.15819852741986823,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.033577540227779326,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2495333045481374,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.03005595511144001,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.24016858933360788,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.142754166306729,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.38301975442806907,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.047334340442412394,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.05434351188815171,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.09209191878970888,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2426364030750357,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.10193898448287761,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1213612361875307,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3485345348645543,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.06780010140900652,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.17189242532161664,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.027585835124159127,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2608457432679213,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.03449681345917267,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.28003074889287366,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1348381810475641,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3442410986440571,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.04858875382674664,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.002553480242168474,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.020143157360394855,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.139959992913759,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.06651694992930941,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.11580735391552882,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.05118295041798766,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2805290371123043,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.03045269553355988,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.07061259000216394,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.004463507746177057,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2429810140906267,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.11351794531050946,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.0938564991512559,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.08299821521637907,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3743560629914767,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.12077926685823656,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.054200444855577366,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.018166986963321044,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.10059025000076392,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.07766962722121273,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.0973958192160589,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.10867309899045645,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.29566381513319073,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.032198423036119445,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.0694884344608796,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.015309525005235339,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.23640633866325392,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.030500517377812644,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08194772584762827,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.14017596679437214,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.21060305837726162,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.07291172100982998,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.055899075853823435,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0026956891022034517,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.3127321743870463,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.10290657721436922,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.12466060113014463,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1726958919602391,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3371205284949529,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.055815914021296764,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.09770278087806245,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.01229748684401827,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2229960023790635,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.07808792889992211,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.07022150691238975,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.06252827334095824,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.241820022505374,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.06602605334403186,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.138420800602224,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.0011941842951974071,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.23303794275899806,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.016319953474532724,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.18516012784487132,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.14710440735212832,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.31091151277780277,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.026790935351555172,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.06777620942161906,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.025907382106057936,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1745750349716512,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.1647053612637547,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.03536317010109319,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.28685877896084405,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.04449881548778951,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.06491890973059533,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0021373177026971523,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2678218762479308,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.06275477238655756,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.11221314539976018,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.09047194139114395,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.08550044550763573,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.054626306020252154,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.09701642560695489,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.04748470256927611,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.033351084138436744,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3385748588078125,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.041207965533639014,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.06939282535679876,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.1446123686142063,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.24449667312415435,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.10585255365389348,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.09967509486280675,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3290853324335312,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.019763153796696912,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.05375213136314786,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0241969308835141,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.21816335018225433,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.02767222946514465,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.10994827370159277,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.12156861918447291,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2206275144213938,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.1338115992898705,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.1339569502887296,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.0028681067892503713,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.25705167491979714,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.01994130048276339,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.07794780321107872,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.348683669514038,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.02894750502554586,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.057158677019545516,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.2740092282530611,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.23896189627945427,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.11032779355056446,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2023,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.11681943372551461,
     "isDataCenterHeavyBucket": "dc"
   },
   {
@@ -74,9 +3934,9 @@
     "regionId": "AECO",
     "period": "recentAI",
     "year": 2024,
-    "variable": "TEMP_C",
+    "variable": "CDH",
     "target": "lmp",
-    "correlation": -0.12682515361265956,
+    "correlation": 0.049369178787023724,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -94,6 +3954,16 @@
     "regionId": "AECO",
     "period": "recentAI",
     "year": 2024,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.32923938171584255,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "RH_PCT",
     "target": "lmp",
     "correlation": -0.20943890520175248,
@@ -104,89 +3974,19 @@
     "regionId": "AECO",
     "period": "recentAI",
     "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.12682515361265956,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "WIND_MS",
     "target": "lmp",
     "correlation": 0.09093961389618883,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "67165681",
-    "regionId": "AECO",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "CDH",
-    "target": "lmp",
-    "correlation": 0.049369178787023724,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "67165681",
-    "regionId": "AECO",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "HDH",
-    "target": "lmp",
-    "correlation": 0.32923938171584255,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "1356178203",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": 0.22205152752813928,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "1356178203",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": 0.07937450659890195,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "1356178203",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.1485301246568399,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "1356178203",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.1157899747555289,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "1356178203",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": -0.01577219191079574,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "1356178203",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "PRECIP_MM",
-    "target": "lmp",
-    "correlation": 0.018093692517101728,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -204,59 +4004,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.07937450659890195,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": -0.11534410968596098,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509177",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.02275167399524468,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509177",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.11531233538296183,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509177",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.18489669324268343,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509177",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.0816553980287796,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509177",
+    "nodeId": "1356178203",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": 0.009634353286802993,
+    "correlation": 0.018093692517101728,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1485301246568399,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.01577219191079574,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.22205152752813928,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1157899747555289,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -274,69 +4084,59 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.11531233538296183,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.18233900098478464,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509183",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": 0.24887731682363165,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509183",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": 0.10968321181409071,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509183",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.17814060922386243,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509183",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.09803683474836754,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509183",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": -0.02381396211361729,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509183",
+    "nodeId": "34509177",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": 0.02714748208565922,
+    "correlation": 0.009634353286802993,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.18489669324268343,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.02275167399524468,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.0816553980287796,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -354,69 +4154,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": 0.10968321181409071,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": -0.15532732221919204,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509185",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.046608502945637106,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509185",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.11232339775929355,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509185",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.1294829027608082,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509185",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.03841294702742218,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509185",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.14817370129965365,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509185",
+    "nodeId": "34509183",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -0.0306148419016553,
+    "correlation": 0.02714748208565922,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.17814060922386243,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": -0.02381396211361729,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.24887731682363165,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.09803683474836754,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -434,69 +4234,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.11232339775929355,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.1998359977235133,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509191",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.08698232267673679,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509191",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.17976163996536357,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509191",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.19582253373594535,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509191",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.010901177224212747,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509191",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.18276732033632326,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509191",
+    "nodeId": "34509185",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -0.013332727216918767,
+    "correlation": -0.0306148419016553,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1294829027608082,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.14817370129965365,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.046608502945637106,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.03841294702742218,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -514,69 +4314,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.17976163996536357,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.2912935507464277,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509193",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.01785654400159321,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509193",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.06366628310069429,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509193",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.12261936647739226,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509193",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.07759695262005134,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509193",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.10691565649076895,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509193",
+    "nodeId": "34509191",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -0.014103958714634783,
+    "correlation": -0.013332727216918767,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.19582253373594535,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.18276732033632326,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.08698232267673679,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.010901177224212747,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -594,69 +4394,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.06366628310069429,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.19468539233948262,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509195",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.0226607614068755,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509195",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.08768298892505667,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509195",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.16248405795276705,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509195",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.09582765351715723,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509195",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.050223461017802465,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509195",
+    "nodeId": "34509193",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": 0.0011315340456109792,
+    "correlation": -0.014103958714634783,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.12261936647739226,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.10691565649076895,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.01785654400159321,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.07759695262005134,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -674,69 +4474,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.08768298892505667,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.16672059456072302,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509197",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.061391409198433465,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509197",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.18760478677193743,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509197",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.2528419732644156,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509197",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.07708694751016636,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509197",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.18146360764910524,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509197",
+    "nodeId": "34509195",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -0.000615406732336682,
+    "correlation": 0.0011315340456109792,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.16248405795276705,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.050223461017802465,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.0226607614068755,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.09582765351715723,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -754,69 +4554,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.18760478677193743,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.3084082365567594,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509199",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": -0.0413477078074485,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509199",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.1078731034405504,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509199",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.14835670936087947,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509199",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.06464193203471995,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509199",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.07760630457742031,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509199",
+    "nodeId": "34509197",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -9.375839448284876e-05,
+    "correlation": -0.000615406732336682,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2528419732644156,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.18146360764910524,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.061391409198433465,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.07708694751016636,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -834,69 +4634,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.1078731034405504,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.21538374280056147,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509205",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": 0.032701221361829375,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509205",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.08283282018134167,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509205",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.17336512775322277,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509205",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.028884306398537847,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509205",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.05768000549843182,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509205",
+    "nodeId": "34509199",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -0.0008580381135599699,
+    "correlation": -9.375839448284876e-05,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.14835670936087947,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.07760630457742031,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.0413477078074485,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.06464193203471995,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -914,59 +4714,69 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.08283282018134167,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.025817352286767667,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509207",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": 0.08710669592617869,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509207",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.07921292682201149,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509207",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.08037765950918489,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509207",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": -0.04291558098382682,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509207",
+    "nodeId": "34509205",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": -0.05904291080657239,
+    "correlation": -0.0008580381135599699,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.17336512775322277,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.05768000549843182,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.032701221361829375,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.028884306398537847,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -984,69 +4794,59 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.07921292682201149,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.006230211477841284,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
-    "nodeId": "34509209",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "TEMP_C",
-    "target": "lmp",
-    "correlation": 0.029258518481942875,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509209",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "DEW_C",
-    "target": "lmp",
-    "correlation": -0.07777738311789145,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509209",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "RH_PCT",
-    "target": "lmp",
-    "correlation": -0.20707644895257116,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509209",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "WIND_MS",
-    "target": "lmp",
-    "correlation": 0.039698094996582806,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509209",
-    "regionId": "AEP",
-    "period": "recentAI",
-    "year": 2024,
-    "variable": "SLP_HPA",
-    "target": "lmp",
-    "correlation": 0.04597567646276449,
-    "isDataCenterHeavyBucket": "nonDc"
-  },
-  {
-    "nodeId": "34509209",
+    "nodeId": "34509207",
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
     "variable": "PRECIP_MM",
     "target": "lmp",
-    "correlation": 0.00741405942412306,
+    "correlation": -0.05904291080657239,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.08037765950918489,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08710669592617869,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.04291558098382682,
     "isDataCenterHeavyBucket": "nonDc"
   },
   {
@@ -1064,9 +4864,1749 @@
     "regionId": "AEP",
     "period": "recentAI",
     "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.07777738311789145,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
     "variable": "HDH",
     "target": "lmp",
     "correlation": 0.15893305310603953,
     "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.00741405942412306,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.20707644895257116,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.04597567646276449,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.029258518481942875,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.039698094996582806,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.03418512531308205,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.4461279837835815,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.19894165640024503,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.14643245645932412,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.014657609424872398,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.292033263185534,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.08111137583000844,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.17147158158241632,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.057033374356771145,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.18252230267855973,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.012070879579710933,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.050609059163204184,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.29253475633947434,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.06507485493712334,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.16061267117043196,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.011985285430017978,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.16123710026914104,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.035872688125604034,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.016201180359731025,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.07975054603515888,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2553623790563517,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.09492821729835332,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.173210631751357,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0038922021011151145,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.197589848116063,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.006860533950288943,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.040073265333562404,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.3296891661309433,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.010625166001674192,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.10647874692383372,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.25314350492784654,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.16561063166542273,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.06747510678113607,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2024,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.080218272064968,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": -0.038438240764067974,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.34087067948579586,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.44490658232542546,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.18759545250210732,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.2553692126426707,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "67165681",
+    "regionId": "AECO",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.04110446402650924,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.14541517059504946,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.09742704512982509,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.035608231888294366,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.012756313992478488,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1914831368516818,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.1900116160436489,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.08543542675370006,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "1356178203",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.1187347073127322,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.20179531214901925,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.18325349408661265,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.30762418624857146,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.09334164960867641,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1458713372139676,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.1607677055542815,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509177",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.03988636106767424,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2003628149282284,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.16306480228687334,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.03569775816526617,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.04006304201551127,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.23201024880164162,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.22741820012182024,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.11702240623297046,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509183",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.14263832313038288,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2534191077050215,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.07025819923118422,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.15391222752125688,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.0013313210592097219,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.14377392790454177,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.21107415418296718,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.0280892707241671,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509185",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.04111752249479736,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.12625251853964503,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.24559155541740013,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.33879788796793453,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.021949754626489223,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.2173728080353822,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.35638541248977296,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.18185566836874872,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509191",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.010918732163078511,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.23557797030884361,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.07102566960681522,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.23547201006281615,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.009348752711378224,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.026989690614356632,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.2661752010556917,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.09366116300725971,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509193",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.019971095978775864,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.17757089201096793,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.1946758297383071,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.32348241168492103,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0007239566163942602,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.13431634505753953,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.19939770636155146,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.16768663808850764,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509195",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.028154754578483453,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.07138341561179502,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.2290279349987141,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.3235332088750068,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.010360601119876842,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.24644527855278794,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.3040030941179789,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.1360341204160516,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509197",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.10267320757860783,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.20413302268740632,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.1807558930757836,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.31517181955615275,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.0024464349681244143,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.14614248917513203,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.20807272806291396,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.15256320189069955,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509199",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.02697166742247005,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.2613692772465133,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.04960265911221254,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.00023330668054256793,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.036954008786934424,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.18668847949722406,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.16983233790516472,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.0747820731827377,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509205",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.08265233974998663,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.33917329892560644,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.06839761094962583,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": -0.09861644086849068,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.07341148861253881,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.20822750350170463,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": 0.23547609932316943,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509207",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.11733514963338057,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.15232958064546887,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.1314557490726144,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.24103727880032513,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.029568071152566232,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.13743761449397732,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.16642009185513518,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.07910646087792948,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509209",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.03924150830851073,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": -0.00905787120346927,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.33083858194873017,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.30120027828253604,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.16243700996066784,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509213",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": -0.02628098642888929,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.23879850911297626,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.17443169930798938,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.2827560390173111,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": -0.01604204081206031,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.21375120624588562,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.09949852586190557,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "34509215",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.09372354690106359,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.24821871049027563,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.11025659518041046,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.22547476559005805,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.009519863499957737,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.14730394650084194,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "SLP_HPA",
+    "target": "lmp",
+    "correlation": 0.19073297335399167,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.06897198115126243,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35084669",
+    "regionId": "AEP",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.035731384609574576,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.15803269024406613,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.15908336004413895,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.2668847863414437,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.06246944945061022,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.14878732993605423,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.11030040315051452,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "11517088",
+    "regionId": "APS",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.0461997833056535,
+    "isDataCenterHeavyBucket": "nonDc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "CDH",
+    "target": "lmp",
+    "correlation": 0.17400621604687064,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "DEW_C",
+    "target": "lmp",
+    "correlation": -0.1781878083754729,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "HDH",
+    "target": "lmp",
+    "correlation": 0.27716741143328294,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "PRECIP_MM",
+    "target": "lmp",
+    "correlation": 0.21772097300663049,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "RH_PCT",
+    "target": "lmp",
+    "correlation": -0.1677730430659433,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "TEMP_C",
+    "target": "lmp",
+    "correlation": -0.13502960054478388,
+    "isDataCenterHeavyBucket": "dc"
+  },
+  {
+    "nodeId": "35010365",
+    "regionId": "DOM",
+    "period": "recentAI",
+    "year": 2025,
+    "variable": "WIND_MS",
+    "target": "lmp",
+    "correlation": 0.05433662579624397,
+    "isDataCenterHeavyBucket": "dc"
   }
 ]
