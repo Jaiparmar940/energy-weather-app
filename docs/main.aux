@@ -3,24 +3,25 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand \oddpage@label [2]{}
-\@writefile{toc}{\contentsline {paragraph}{Weather merge and features.}{1}{section*.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{RQ1 (associational).}{1}{section*.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{RQ2 (predictive).}{1}{section*.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Between-group summaries.}{1}{section*.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Figures (trends vs.\ bucket contrasts).}{1}{section*.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Fig.\ 1: Mean shift in weather--LMP correlation between \texttt  {recentAI} (\num {2022}--\num {2025}) and \texttt  {earlyAI} (\num {2021}), by DC-likelihood bucket and weather variable; error bars reflect independent SEM propagation across periods.}}{2}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:rq1shift}{{1a}{2}{Mean change in weather--LMP $r$ from \texttt {earlyAI} to \texttt {recentAI} by bucket and variable}{figure.caption.1}{}}
+\newlabel{sub@fig:rq1shift}{{a}{2}{Mean change in weather--LMP $r$ from \texttt {earlyAI} to \texttt {recentAI} by bucket and variable}{figure.caption.1}{}}
+\newlabel{fig:rq1year}{{1b}{2}{Mean $r$ by calendar year and bucket ($\pm 1$ SEM)}{figure.caption.1}{}}
+\newlabel{sub@fig:rq1year}{{b}{2}{Mean $r$ by calendar year and bucket ($\pm 1$ SEM)}{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces RQ1: how association moves across periods and years (DC-likely vs.\ non-DC).}}{2}{figure.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:dcbucket}{{1}{2}{Fig.\ 1: Mean shift in weather--LMP correlation between \texttt {recentAI} (\num {2022}--\num {2025}) and \texttt {earlyAI} (\num {2021}), by DC-likelihood bucket and weather variable; error bars reflect independent SEM propagation across periods}{figure.caption.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Fig.\ 2: Mean Pearson $r$ (weather vs.\ LMP) by calendar year and bucket; shaded bands are $\pm 1$\,SEM within each year$\times $bucket cell.}}{2}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:linebucket}{{2}{2}{Fig.\ 2: Mean Pearson $r$ (weather vs.\ LMP) by calendar year and bucket; shaded bands are $\pm 1$\,SEM within each year$\times $bucket cell}{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Descriptive (RQ1).} Node-level mean absolute Pearson correlation (all merged weather$\times $target rows per node), by DC-likelihood bucket. Violin shading, box quartiles, and jittered points show overlap and tails; axis labels include group \(n\).}}{3}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:rq1dist}{{3}{3}{\textbf {Descriptive (RQ1).} Node-level mean absolute Pearson correlation (all merged weather$\times $target rows per node), by DC-likelihood bucket. Violin shading, box quartiles, and jittered points show overlap and tails; axis labels include group \(n\)}{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Inferential (RQ1).} Bootstrap \num {95}\% CI for the difference of \emph  {group means} of node-level mean \(|\rho |\) (DC $-$ non-DC), aligned with \texttt  {hypothesis\_tests.json}. Interval crossing \num {0} is consistent with no detectable mean shift at this precision; significance follows Table~\ref {tab:hyp}, not the graphic alone.}}{3}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:rq1inf}{{4}{3}{\textbf {Inferential (RQ1).} Bootstrap \num {95}\% CI for the difference of \emph {group means} of node-level mean \(|\rho |\) (DC $-$ non-DC), aligned with \texttt {hypothesis\_tests.json}. Interval crossing \num {0} is consistent with no detectable mean shift at this precision; significance follows Table~\ref {tab:hyp}, not the graphic alone}{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Descriptive (RQ2).} Node-level mean weather-only error (per-node average across exported evaluation rows; \(n\)RMSE when available so scale is comparable across nodes). High dispersion reflects model and period heterogeneity within buckets.}}{4}{figure.caption.15}\protected@file@percent }
-\newlabel{fig:rq2dist}{{5}{4}{\textbf {Descriptive (RQ2).} Node-level mean weather-only error (per-node average across exported evaluation rows; \(n\)RMSE when available so scale is comparable across nodes). High dispersion reflects model and period heterogeneity within buckets}{figure.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \textbf  {Inferential (RQ2).} Bootstrap \num {95}\% CI for DC $-$ non-DC mean weather-only \(n\)RMSE using \emph  {evaluation rows} (possibly multiple per node), as in the hypothesis export. Descriptive Fig.~\ref {fig:rq2dist} uses node-level means for clarity; interpret inferential claims from Table~\ref {tab:hyp} and this panel.}}{4}{figure.caption.16}\protected@file@percent }
-\newlabel{fig:rq2inf}{{6}{4}{\textbf {Inferential (RQ2).} Bootstrap \num {95}\% CI for DC $-$ non-DC mean weather-only \(n\)RMSE using \emph {evaluation rows} (possibly multiple per node), as in the hypothesis export. Descriptive Fig.~\ref {fig:rq2dist} uses node-level means for clarity; interpret inferential claims from Table~\ref {tab:hyp} and this panel}{figure.caption.16}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Hypothesis-export contrasts at $\alpha = 0.05$ (from \texttt  {hypothesis\_tests.json}). CI = bootstrap mean difference DC $-$ non-DC.}}{5}{table.caption.17}\protected@file@percent }
-\newlabel{tab:hyp}{{1}{5}{Hypothesis-export contrasts at $\alpha = 0.05$ (from \texttt {hypothesis\_tests.json}). CI = bootstrap mean difference DC $-$ non-DC}{table.caption.17}{}}
-\gdef \@abspage@last{5}
+\newlabel{fig:rq1time}{{1}{2}{RQ1: how association moves across periods and years (DC-likely vs.\ non-DC)}{figure.caption.1}{}}
+\newlabel{fig:rq1dist}{{2a}{3}{Distribution of node-level mean $|\rho |$ by bucket ($n$ on axis)}{figure.caption.2}{}}
+\newlabel{sub@fig:rq1dist}{{a}{3}{Distribution of node-level mean $|\rho |$ by bucket ($n$ on axis)}{figure.caption.2}{}}
+\newlabel{fig:rq1inf}{{2b}{3}{Bootstrap \num {95}\% CI for DC $-$ non-DC mean of node-level mean $|\rho |$}{figure.caption.2}{}}
+\newlabel{sub@fig:rq1inf}{{b}{3}{Bootstrap \num {95}\% CI for DC $-$ non-DC mean of node-level mean $|\rho |$}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces RQ1: cross-sectional spread and uncertainty for the bucket mean contrast.}}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:rq1cross}{{2}{3}{RQ1: cross-sectional spread and uncertainty for the bucket mean contrast}{figure.caption.2}{}}
+\newlabel{fig:rq2dist}{{3a}{3}{Per-node mean weather-only $n$RMSE (or RMSE) by bucket}{figure.caption.3}{}}
+\newlabel{sub@fig:rq2dist}{{a}{3}{Per-node mean weather-only $n$RMSE (or RMSE) by bucket}{figure.caption.3}{}}
+\newlabel{fig:rq2inf}{{3b}{3}{Bootstrap \num {95}\% CI for DC $-$ non-DC mean $n$RMSE on evaluation rows}{figure.caption.3}{}}
+\newlabel{sub@fig:rq2inf}{{b}{3}{Bootstrap \num {95}\% CI for DC $-$ non-DC mean $n$RMSE on evaluation rows}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces RQ2: weather-only error distributions and mean contrast.}}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:rq2both}{{3}{3}{RQ2: weather-only error distributions and mean contrast}{figure.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Formal bucket contrasts from \texttt  {hypothesis\_tests.json} (bootstrap CI for DC $-$ non-DC mean). Not a spreadsheet screenshot---exported statistical summary.}}{4}{table.caption.4}\protected@file@percent }
+\newlabel{tab:hyp}{{1}{4}{Formal bucket contrasts from \texttt {hypothesis\_tests.json} (bootstrap CI for DC $-$ non-DC mean). Not a spreadsheet screenshot---exported statistical summary}{table.caption.4}{}}
+\gdef \@abspage@last{4}
